@@ -1,0 +1,284 @@
+Uri: http://safety-pool.ru/
+File Name: c:\Downloaded Web Sites\safety-pool.ru\index.htm
+Content Type: text/html
+
+Uri: http://safety-pool.ru/feed/
+File Name: c:\Downloaded Web Sites\safety-pool.ru\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: http://safety-pool.ru/comments/feed/
+File Name: c:\Downloaded Web Sites\safety-pool.ru\comments\feed\index.rss
+Content Type: application/rss+xml
+
+Uri: http://safety-pool.ru/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvo.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvo.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsans.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsans.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/css/materialize.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\css\materialize.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/css/flexbox.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\css\flexbox.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/css/swiper.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\css\swiper.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/style.css?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\style.css
+Content Type: text/css
+
+Uri: http://safety-pool.ru/wp-json/
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-json\index.json
+Content Type: application/json
+
+Uri: http://safety-pool.ru/xmlrpc.php?rsd
+File Name: c:\Downloaded Web Sites\safety-pool.ru\xmlrpc.xml
+Content Type: text/xml
+
+Uri: http://safety-pool.ru/wp-includes/wlwmanifest.xml
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-includes\wlwmanifest.xml
+Content Type: application/xml
+
+Uri: http://safety-pool.ru/wp-json/oembed/1.0/embed?url=http:%2F%2Fsafety-pool.ru%2F
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-json\oembed\1.0\embed.json
+Content Type: application/json
+
+Uri: http://safety-pool.ru/wp-json/oembed/1.0/embed?url=http:%2F%2Fsafety-pool.ru%2F&format=xml
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/apple-touch-icon.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\apple-touch-icon.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/favicon-32x32.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\favicon-32x32.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/android-chrome-192x192.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\android-chrome-192x192.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/favicon-16x16.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\favicon-16x16.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/manifest.json
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\manifest.json
+Content Type: application/json
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/safari-pinned-tab.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/fbrfg/favicon.ico
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\fbrfg\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://safety-pool.ru/wp-content/plugins/all-in-one-seo-pack/public/js/vendor/autotrack.js
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\plugins\all-in-one-seo-pack\public\js\vendor\autotrack.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-includes\js\jquery\jquery.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\plugins\pc-google-analytics\assets\js\frontend.min.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/js/svgeezy.js?ver=0.1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\js\svgeezy.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/js/materialize.min.js?ver=0.1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\js\materialize.min.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/js/swiper.min.js?ver=0.1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\js\swiper.min.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/js/init.js?ver=0.1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\js\init.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/js/ymap_init.js?ver=1
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\js\ymap_init.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/service/logo.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\service\logo.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/water-141327_1920.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\water-141327_1920.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/boy-broad-smile.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\boy-broad-smile.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/piggy-bank.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\piggy-bank.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/like.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\like.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/item-1.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\item-1.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/water-1144356_1280.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\water-1144356_1280.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/gift.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\gift.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/glass-of-water.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\glass-of-water.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/clock.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\clock.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/gloves-wheel-686483.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\gloves-wheel-686483.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/guarantee.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\guarantee.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/archery.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\archery.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/rocket.svg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\rocket.svg
+Content Type: image/svg+xml
+
+Uri: http://safety-pool.ru/wp-content/uploads/2016/09/pool-162621_1920.jpg
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\uploads\2016\09\pool-162621_1920.jpg
+Content Type: image/jpeg
+
+Uri: http://safety-pool.ru/wp-includes/js/wp-embed.min.js?ver=5.2.3
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvo.woff2
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvo.woff2
+Content Type: application/font-woff2
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvo.woff
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvo.woff
+Content Type: application/font-woff
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvo.ttf
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvo.ttf
+Content Type: application/font-sfnt
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvobold.woff2
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvobold.woff2
+Content Type: application/font-woff2
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvobold.woff
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvobold.woff
+Content Type: application/font-woff
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/arvobold.ttf
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\arvobold.ttf
+Content Type: application/font-sfnt
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsanslight.woff2
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsanslight.woff2
+Content Type: application/font-woff2
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsanslight.woff
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsanslight.woff
+Content Type: application/font-woff
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsanslight.ttf
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsanslight.ttf
+Content Type: application/font-sfnt
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsans.woff2
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsans.woff2
+Content Type: application/font-woff2
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsans.woff
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsans.woff
+Content Type: application/font-woff
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsans.ttf
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsans.ttf
+Content Type: application/font-sfnt
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsansbold.woff2
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsansbold.woff2
+Content Type: application/font-woff2
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsansbold.woff
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsansbold.woff
+Content Type: application/font-woff
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/fonts/clearsansbold.ttf
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\fonts\clearsansbold.ttf
+Content Type: application/font-sfnt
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_grey-blue2.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_grey-blue2.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_white-pink2.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_white-pink2.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/carbon.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\carbon.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_blue_grey2.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_blue_grey2.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_white-pink3.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_white-pink3.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_blue_grey1.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_blue_grey1.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back2_grey-blue1.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back2_grey-blue1.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/back1_white-pink4.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\back1_white-pink4.png
+Content Type: image/png
+
+Uri: http://safety-pool.ru/wp-content/themes/clean-pool/assets/images/backgrounds/carbon2.png
+File Name: c:\Downloaded Web Sites\safety-pool.ru\wp-content\themes\clean-pool\assets\images\backgrounds\carbon2.png
+Content Type: image/png
+

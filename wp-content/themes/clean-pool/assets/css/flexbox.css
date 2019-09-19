@@ -1,0 +1,40 @@
+.flex-row {
+    display: -webkit-box ;
+    display: -moz-box ;
+    display: -ms-flexbox ;
+    display: -webkit-flex ;
+    display: flex ;
+    -webkit-box-orient: horizontal ;
+    -moz-box-orient: horizontal ;
+    -webkit-box-direction: normal ;
+    -moz-box-direction: normal ;
+    -webkit-flex-direction: row ;
+    -ms-flex-direction: row ;
+    flex-direction: row ;
+    vertical-align: middle ;
+    align-content: center ;
+    align-items: center ;
+    align-self: center ;
+    text-align: center ;
+    justify-content: center ;
+}
+.flex-column {
+    display: -webkit-box ;
+    display: -moz-box ;
+    display: -ms-flexbox ;
+    display: -webkit-flex ;
+    display: flex ;
+    -webkit-box-orient: vertical ;
+    -moz-box-orient: vertical ;
+    -webkit-box-direction: normal ;
+    -moz-box-direction: normal ;
+    -webkit-flex-direction: column ;
+    -ms-flex-direction: column ;
+    flex-direction: column ;
+    vertical-align: middle ;
+    align-content: center ;
+    align-items: center ;
+    align-self: center ;
+    text-align: center ;
+    justify-content: center ;
+}

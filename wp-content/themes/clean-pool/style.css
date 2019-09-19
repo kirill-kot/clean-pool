@@ -1,0 +1,4442 @@
+		/*
+Theme Name: clean-pool
+Theme URI: http://underscores.me/
+Author: panorama2000
+Author URI: http://panorama2000.ru/
+Description: clean-pool
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clean-pool
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+clean-pool is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+		h1 {
+			font-size: 3em;
+		}
+
+		h2 {
+			font-size: 2.75em;
+		}
+
+		h3 {
+			font-size: 2.5em;
+		}
+
+		body {
+			background-image: url('assets/images/backgrounds/back1_grey-blue2.png');
+			background-repeat: repeat;
+			background-size: 180px;
+		}
+
+		.underline {
+			text-decoration: underline;
+		}
+
+		hr.white-hr {
+			border-top: 1px solid #fff;
+			width: 100%;
+		}
+
+		hr.blue-hr {
+			border-top: 1px solid #1976D2;
+			width: 100%;
+		}
+
+		.uppercase {
+			text-transform: uppercase;
+		}
+
+		nav .brand-logo {
+			margin: 0 50px;
+		}
+
+		@media all and (min-width: 0) and (max-width: 600px) {
+			nav .brand-logo {
+				left: auto;
+				transform: translateX(0);
+				-webkit-transform: translateX(0);
+			}
+		}
+		.brand-logo img {
+			margin: 10px 0;
+			height: 80px;
+			width: auto;
+		}
+
+		.head-slogan {
+			height: 125px;
+			text-align: center;
+			border-left: 1px solid rgba(13, 71, 161, .75);
+			border-right: 1px solid rgba(13, 71, 161, .75);
+			-webkit-background-clip: padding-box;
+			/* for Safari */
+			background-clip: padding-box;
+			/* for IE9+, Firefox 4+, Opera, Chrome */
+		}
+
+		.head_info a,
+		.head-slogan p {
+			font-size: 24px;
+			line-height: normal;
+		}
+
+		.head_info a.btn {
+			font-size: 20px;
+			line-height: 36px;
+		}
+
+		.head_info {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: auto;
+			height: 125px;
+			margin-right: 50px;
+			width: 300px;
+			text-align: center;
+			justify-content: space-around;
+		}
+
+		header,
+		nav .nav-wrapper,
+		nav,
+		.navbar-fixed {
+			position: fixed;
+			width: 100%;
+			z-index: 1000;
+			border: none;
+			padding-bottom: 25px;
+			background-image: url('assets/images/backgrounds/back1_white-pink2.png');
+			background-repeat: repeat;
+			height: 125px;
+			line-height: 125px;
+			overflow: hidden;
+			background-color: transparent;
+		}
+
+		header,
+		nav,
+		nav .nav-wrapper,
+		.navbar-fixed {
+			box-sizing: content-box;
+		}
+
+		main {
+			padding-top: 100px;
+		}
+
+		#first-screen {
+			height: 825px;
+		}
+
+		#fisrt-screen .section {
+			z-index: 125;
+		}
+
+		#first-screen .info {
+			margin-top: 25px;
+			margin-left: -100px;
+		}
+
+		#first-screen img {
+			z-index: 75;
+		}
+
+		#first-screen .filter {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-color: rgba(13, 71, 161, .25);
+			background-image: url('assets/images/backgrounds/carbon.png');
+			background-repeat: repeat;
+			background-size: 375px;
+			z-index: 100;
+			opacity: .25;
+		}
+
+		#first-screen .feature1 {
+			font-size: 36px;
+			line-height: 2;
+			width: 75%;
+			word-spacing: 2px;
+		}
+
+		#contact-form-flipper {
+			position: absolute;
+			perspective: 1280px;
+			backface-visibility: hidden;
+			transform-origin: right center;
+			right: 10%;
+			width: 25%;
+			top: 250px;
+			z-index: 250;
+		}
+
+		#contact-form-flipper .flipped {
+			-webkit-transform: translateY( -50%) rotateY(-180deg);
+			transform: translateY( -50%) rotateY(-180deg);
+			backface-visibility: hidden;
+		}
+
+		#contact-form-flipper .unflipped {
+			-webkit-transform: translateY( 0) rotateY( 0);
+			transform: translateY( 0) rotateY( 0);
+			backface-visibility: hidden;
+		}
+
+		#small-contact-form,
+		#small-contact {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			transform-style: preserve-3d;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-transition: -webkit-transform 2.5s;
+			transition: transform 2.5s;
+			position: relative;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_blue_grey2.png');
+			background-repeat: repeat;
+		}
+
+		#small-contact-form .form-logo,
+		#small-contact .form-logo {
+			width: 80%;
+			height: auto;
+			margin: 25px 0;
+			margin-top: 35px;
+		}
+
+		#small-contact-form .cta p,
+		#small-contact-form .info p,
+		#small-contact .cta p,
+		#small-contact .info p {
+			font-size: 20px;
+			word-spacing: 2px;
+			margin: 25px auto;
+			width: 80%;
+			text-align: center;
+		}
+
+		#small-contact-form .cta p,
+		#small-contact .cta p,
+		{
+			margin-bottom: 35px;
+		}
+
+		#small-contact-form .btn {
+			margin: 25px 0;
+			font-size: 20px;
+			height: 50px;
+			line-height: 50px;
+		}
+
+		input[type=text]:focus:not([readonly]),
+		input[type=tel]:focus:not([readonly]) {
+			border-bottom: 1px solid #fff;
+			box-shadow: 0 1px 0 0 #fff;
+		}
+
+		.select-wrapper input.select-dropdown {
+			color: #fff;
+		}
+
+		.dropdown-content li > a,
+		.dropdown-content li > span {
+			color: #1E88E5;
+		}
+
+		.switch label input[type=checkbox]:checked + .lever:after {
+			background-color: rgba(25, 118, 210, 0.53);
+		}
+
+		.switch label input[type=checkbox]:checked + .lever {
+			background-color: #5ab6ff;
+		}
+
+		.select-wrapper input.select-dropdown,
+		.dropdown-content li > a,
+		.dropdown-content li > span {
+			font-family: 'Arvo';
+			font-weight: 400;
+			font-stylw: normal;
+		}
+
+		input:not([type]),
+		input[type=text],
+		input[type=password],
+		input[type=email],
+		input[type=url],
+		input[type=time],
+		input[type=date],
+		input[type=datetime],
+		input[type=datetime-local],
+		input[type=tel],
+		input[type=number],
+		input[type=search],
+		textarea.materialize-textarea,
+		.select-wrapper input.select-dropdown {
+			font-size: 24px;
+			margin: 20px 0;
+		}
+
+		input:not([type]).validate + label,
+		input[type=text].validate + label,
+		input[type=password].validate + label,
+		input[type=email].validate + label,
+		input[type=url].validate + label,
+		input[type=time].validate + label,
+		input[type=date].validate + label,
+		input[type=datetime].validate + label,
+		input[type=datetime-local].validate + label,
+		input[type=tel].validate + label,
+		input[type=number].validate + label,
+		input[type=search].validate + label,
+		textarea.materialize-textarea.validate + label,
+		.character-counter {
+			font-size: 18px;
+			margin: 20px 0;
+			float: left;
+			text-align: left;
+		}
+
+		.character-counter {
+			font-family: 'Arvo';
+			font-size: 1em;
+			color: #fff;
+		}
+
+		#advantages {
+			min-height: 800px;
+			margin-top: -7.5%;
+			padding-top: 7.5%;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_white-pink3.png');
+			background-repeat: repeat;
+		}
+
+		#advantages .advantage {
+			margin-bottom: 50px;
+		}
+
+		#advantages .advantage p.uppercase {
+			font-size: 20px;
+			width: 100%;
+			margin: 10px auto;
+		}
+
+		#advantages .advantage p {
+			font-size: 18px;
+			width: 80%;
+			margin: auto;
+		}
+
+		#advantages .circle-with-border {
+			height: 120px;
+			width: 120px;
+			vertical-align: middle;
+			border-radius: 50%;
+			border: 3px solid #1976D2;
+		}
+
+		#advantages .circle-with-border img {
+			height: 80px;
+			width: 80px;
+			margin: 0;
+		}
+
+		#advantages .svg-animate svg {
+			height: 80px;
+			width: 80px;
+			position: relative;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		#advantages .header {
+			font-size: 24px;
+			margin: 25px 0;
+		}
+
+		#advantages p {
+			margin: 0;
+			font-size: 20px;
+		}
+
+		#prices {
+			width: 100% !important;
+			margin-top: -7.5%;
+			padding-top: 7.5%;
+			overflow: hidden;
+		}
+
+		#prices .container {
+			margin-top: -5%;
+		}
+.priceSwiper {
+	width: 100%;
+}
+
+		#prices .prices {
+			width: 24.5%;
+			margin: 0 0.25%;
+/*			overflow: hidden;*/
+			position: relative;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_blue_grey1.png');
+			background-repeat: repeat;
+		}
+
+		#prices .filter {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-color: rgba(13, 71, 161, .25);
+			background-image: url('assets/images/backgrounds/carbon.png');
+			background-repeat: repeat;
+			background-size: 375px;
+			z-index: 100;
+			opacity: .25;
+		}
+
+		#prices .circle-with-border {
+			z-index: 50;
+			height: 180px;
+			width: 180px;
+			vertical-align: middle;
+			border-radius: 50%;
+			background-color: #fff;
+			border: 3px solid #1976D2;
+			overflow: hidden;
+		}
+
+		#prices .circle-with-border img {
+			z-index: 50;
+			height: 150px;
+			width: 150px;
+			margin: 0;
+		}
+
+		#prices .old_price {
+			z-index: 50;
+			font-size: 1.25em;
+			text-decoration: line-through;
+			margin: 10px auto;
+		}
+
+		#prices .discount {
+			z-index: 50;
+			font-size: 1.5em;
+			margin: 10px auto;
+		}
+
+		#prices .cards .cards-action {
+			z-index: 50;
+			padding: 0;
+			border-top: none;
+		}
+
+		#prices .cards .cards-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+			z-index: 50;
+			margin-right: 0;
+			width: 50%;
+			height: 30px;
+			margin: 15px 0;
+			line-height: normal;
+			float: left;
+		}
+
+		#prices .header {
+			z-index: 50;
+			font-size: 1.25em;
+			letter-spacing: 1px;
+			width: 95%;
+		}
+
+		#prices .more {
+			z-index: 50;
+			font-size: 1.25em;
+			margin: 0;
+			height: 30px;
+			margin-right: 10px;
+			line-height: normal;
+			border-bottom: 1px dashed #fff;
+		}
+
+		#prices .to_form {
+			z-index: 50;
+			font-size: 1.25em;
+			margin: 0;
+			margin-left: 10px;
+			height: 30px;
+			line-height: normal;
+			border-bottom: 1px dashed #ffb74d;
+		}
+
+		#special .special {
+			position: absolute;
+			right: 10%;
+			margin-top: -12.5%;
+			padding: 2.5%;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back2_grey-blue1.png');
+			background-repeat: repeat;
+			z-index: 350;
+		}
+
+		#special .container {
+			padding: 2.5% 0;
+		}
+
+		#special .circle-with-border {
+			height: 150px;
+			width: 150px;
+			vertical-align: middle;
+			border-radius: 50%;
+			background-color: #fff;
+			border: 3px solid #00b0ff;
+			overflow: hidden;
+		}
+
+		#special .circle-with-border img {
+			z-index: 50;
+			height: auto;
+			width: 100%;
+			margin: 0;
+		}
+
+		#special h5 {
+			width: 90%;
+			font-size: 1.325em;
+			letter-spacing: .02em;
+			line-height: 1.25;
+			margin: 25px auto;
+		}
+
+		#special h1 {
+			font-size: 3.25em;
+			line-height: 1.25;
+			margin: 25px auto;
+		}
+
+		#how_it_works {
+			z-index: 150;
+			margin-top: -10%;
+			padding: 5% 0;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_white-pink4.png');
+			background-repeat: repeat;
+		}
+
+		#how_it_works .picture {
+			height: 150px;
+			width: 150px;
+			vertical-align: middle;
+		}
+
+		#how_it_works .picture img {
+			height: 125px;
+			width: 125px;
+			margin: 0;
+		}
+
+		#how_it_works .svg-animate svg {
+			height: 125px;
+			width: 125px;
+			position: relative;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		#how_it_works .how_it_works p.header {
+			font-size: 20px;
+			width: 90%;
+			margin: 10px auto;
+		}
+
+		#how_it_works .how_it_works p {
+			font-size: 18px;
+			width: 80%;
+			margin: auto;
+		}
+
+		#how_it_works .step {
+			margin-bottom: 1em;
+		}
+
+		#result .video-info {
+			margin: 2.5% auto;
+			position: absolute;
+			right: 0;
+		}
+
+		#result .video-header {
+			font-size: 20px;
+			width: 90%;
+			margin: 10px auto;
+		}
+
+		#result .video-container {
+			clip-path: url(#firstClip_s);
+			-webkit-clip-path: url(#firstClip_s);
+			-moz-clip-path: url(#firstClip_s);
+			-o-clip-path: url(#firstClip_s);
+			width: 480px;
+			height: 250px;
+			position: relative;
+			margin: -25px auto;
+			padding: 0;
+			z-index: 350;
+		}
+
+		#result iframe {
+			height: 100%;
+			width: 100%;
+		}
+
+		#warning {
+			margin-top: -5%;
+			padding-top: 7.5% 0;
+			overflow: hidden;
+		}
+
+		#warning .container {
+			padding: 7.5% 0;
+		}
+
+		#warning .filter {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-image: url('assets/images/backgrounds/carbon2.png');
+			background-repeat: repeat;
+			background-size: 375px;
+			z-index: 100;
+			opacity: .75;
+		}
+
+		#warning h1 {
+			font-size: 3em;
+			text-align: center;
+			line-height: 1.25;
+			margin: 25px auto;
+		}
+
+		#warning p {
+			width: 90%;
+			font-size: 1.5em;
+			letter-spacing: .01em;
+			margin: 25px auto 100px;
+		}
+
+		#about {
+			z-index: 150;
+			min-height: 500px;
+			margin-top: -2.5%;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_white-pink2.png');
+			background-repeat: repeat;
+		}
+
+		#about h1 {
+			font-size: 3em;
+			text-align: right;
+			line-height: 1.25;
+			margin: 25px 0;
+		}
+
+		#about .about-text h1 {
+			font-size: 3em;
+			text-align: center;
+			line-height: 1;
+			margin: 10px auto;
+		}
+
+		#about .huge {
+			font-size: 68px;
+			margin: 10px auto;
+		}
+
+		#about .about-text h4 {
+			width: 75%;
+			letter-spacing: .03em;
+			font-size: 2.25em;
+			text-align: center;
+			line-height: 1;
+			margin: 10px auto;
+		}
+
+		#about .about-page .picture {
+			height: 120px;
+			width: 120px;
+			vertical-align: middle;
+		}
+
+		#about .picture img {
+			height: 90px;
+			width: 90px;
+			margin: 0;
+		}
+
+		#about .svg-animate svg {
+			height: 90px;
+			width: 90px;
+			position: relative;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+
+		#about .about-page {
+			padding-bottom: 25px;
+		}
+
+		#about .about-page .text {
+			height: 120px;
+		}
+
+		#about .about-page p.header {
+			font-size: 20px;
+			line-height: 1;
+			margin: 10px auto;
+		}
+
+		#about .about-page p {
+			text-align: left;
+			font-size: 18px;
+			line-height: 1;
+			margin: 0 auto;
+		}
+
+		#about .about-page p a {
+			border-bottom: 1px dashed #2196F3;
+		}
+
+		#maps .map-banner {
+			position: relative;
+			background-color: rgba(13, 71, 161, .325);
+			margin-top: -5%;
+			margin-bottom: -2.5%;
+			height: 175px;
+			z-index: 850;
+		}
+
+		ymaps.ymaps-2-1-42-controls__toolbar {
+			margin-top: 5% !important;
+			z-index: 1000 !important;
+		}
+
+		#maps #cityDropdown {
+			position: absolute;
+			margin-top: 6%;
+			left: auto;
+			right: 5%;
+			z-index: 1000;
+		}
+
+		#maps #dropdown_city {
+			position: relative;
+			margin-top: 15%;
+			left: auto;
+			right: 5%;
+			z-index: 1000;
+			width: 500px;
+			height: auto;
+			overflow-x: auto;
+		}
+
+		#map .dropdown-content li {
+			z-index: 1500;
+		}
+
+		#maps .map-info {
+			position: relative;
+		}
+
+		#maps h1 {
+			text-align: left;
+			position: absolute;
+			z-index: 650;
+			margin-top: 5%;
+		}
+
+		#maps {
+			z-index: 150;
+			margin-top: -5%;
+			padding: 5% 0;
+			min-height: 650px;
+			position: relative;
+			overflow: hidden;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_white-pink2.png');
+			background-repeat: repeat;
+		}
+
+		#map {
+			position: absolute;
+			top: 0;
+			z-index: 250;
+			height: 100%;
+			width: 100%;
+		}
+
+		ymaps.ymaps-2-1-42-copyrights-pane {
+			left: auto !important;
+			right: 10% !important;
+		}
+
+		ymaps.ymaps-2-1-42-map-copyrights-promo {
+			left: auto !important;
+			right: 100% !important;
+			bottom: -10px !important;
+		}
+
+		#extended_form h1 {
+			font-size: 3em;
+			text-align: left;
+			line-height: 1;
+		}
+
+		#extended_form {
+			height: auto;
+			margin-top: -2.5%;
+			padding: 2.5% 0 5% 0;
+			overflow: hidden;
+		}
+
+		#extended_form #extended-contact-form {
+			padding: 5% 5%;
+			background-blend-mode: normal;
+			background-color: rgba(13, 71, 161, .325);
+			background-repeat: repeat;
+		}
+
+		#extended_form .filter {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-image: url('assets/images/backgrounds/carbon2.png');
+			background-repeat: repeat;
+			background-size: 375px;
+			z-index: 100;
+			opacity: .75;
+		}
+
+		footer {
+			z-index: 150;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			background-blend-mode: normal;
+			background-image: url('assets/images/backgrounds/back1_white-pink2.png');
+			background-repeat: repeat;
+		}
+
+		footer.page-footer {
+			margin-top: -2.5%;
+			padding-top: 2.5%;
+		}
+
+		footer p {
+			font-size: 24px;
+		}
+
+		footer .row {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		@media all and (min-width: 0) and (max-width: 319px) {
+			#about .huge {
+				font-size: 2.25em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2em;
+			}
+			h2 {
+				font-size: 1.75em;
+			}
+			h3 {
+				font-size: 1.5em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.25em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1em;
+			}
+			h6 {
+				font-size: .75em;
+			}
+			h1,
+			h3 {
+				text-align: center;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			footer p {
+				font-size: 1em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.25em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: .9em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 10px 0;
+			}
+			nav .brand-logo {
+				margin: 0;
+				width: 100%;
+				height: 75px;
+			}
+			.brand-logo img {
+				height: 50px;
+				margin: 10px 0 0;
+			}
+			.head_info {
+				position: relative;
+				margin: 0;
+				margin-top: 100px;
+				height: 50px;
+				flex-direction: row;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1em;
+				margin: auto;
+				letter-spacing: normal;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: .75em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			.parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 100%;
+			}
+			#first-screen .info {
+				margin-left: 0;
+				width: 100%;
+			}
+			#first-screen .feature1 {
+				font-size: 1em;
+				line-height: 1.5;
+				text-align: center;
+				width: 100%;
+			}
+			#contact-form-flipper {
+				top: 80vh;
+				width: 100%;
+				right: 0;
+				left: 0;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 50px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 25px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 5%;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 95%;
+				margin: 0 auto;
+			}
+			#advantages {
+				margin-top: -7.5%;
+				padding-top: 25%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -12.5%;
+				padding: 10% 0;
+			}
+			#prices .prices {
+				width: 90%;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 100px;
+				height: 100px;
+
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 75px;
+				width: 75px;
+			}
+			#special .special {
+				right: 0;
+				left: 0;
+				width: 100%;
+				margin-top: -20%;
+			}
+			#how_it_works {
+				margin-top: 10%;
+				padding: 25% 0;
+			}
+			#result .video-info {
+				position: relative;
+			}
+			#result .video-container {
+				width: 90%;
+				height: 150px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#warning {
+				margin-top: -25%;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -15%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-text {
+				width: 90%;
+				margin: 2.5% 5%;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -10%;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 5% 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 160px;
+				right: 10%;
+				left: 10%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: 0;
+				right: 0;
+				margin-top: 200px;
+				margin-left: 1.5%;
+				width: 100%;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -15%;
+				padding: 10% 0;
+			}
+			#extended-contact-form {
+				margin-bottom: 10%;
+			}
+			#extended-contact-form .btn {
+				margin-bottom: 10%;
+			}
+			footer.page-footer {
+				margin-top: -20%;
+				padding-top: 15%;
+			}
+			footer .flex-row {
+				flex-direction: column;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 320px) and (max-width: 479px) {
+			#about .huge {
+				font-size: 2.325em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.125em;
+			}
+			h2 {
+				font-size: 1.875em;
+			}
+			h3 {
+				font-size: 1.625em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.325em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.125em;
+			}
+			h6 {
+				font-size: .875em;
+			}
+			h1,
+			h3 {
+				text-align: center;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			footer p {
+				font-size: 1.125em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.325em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.025em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.125em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 10px 0;
+			}
+			nav .brand-logo {
+				margin: 0;
+				width: 100%;
+				height: 75px;
+			}
+			.brand-logo img {
+				height: 75px;
+				margin: 0;
+			}
+			.head_info {
+				position: relative;
+				margin: 100px 2.5% 0;
+				height: 50px;
+				flex-direction: row;
+				justify-content: space-between;
+				width: 100%;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1em;
+				margin: 0;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: .875em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			.parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 100%;
+			}
+			#first-screen .info {
+				margin-left: 0;
+				width: 100%;
+			}
+			#first-screen .feature1 {
+				font-size: 1em;
+				line-height: 1.5;
+				text-align: center;
+				width: 100%;
+			}
+			#contact-form-flipper {
+				top: 400px;
+				width: 100%;
+				right: 0;
+				left: 0;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 60px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 25px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 12.5%;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 95%;
+				margin: 0 auto;
+			}
+			#advantages {
+				margin-top: 5%;
+				padding-top: 25%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -12.5%;
+				padding: 10% 0;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 120px;
+				height: 120px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 80px;
+				width: 80px;
+			}
+			#special .special {
+				left: 0;
+				right:0;
+				width: 100%;
+				margin-top: -20%;
+			}
+			#how_it_works {
+				margin-top: 10%;
+				padding: 25% 0;
+			}
+			#result .video-info {
+				position: relative;
+			}
+			#result .video-container {
+				width: 90%;
+				height: 180px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#warning {
+				margin-top: -15%;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -15%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-text {
+				width: 90%;
+				margin: 2.5% 5%;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -10%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 7.5%;
+				height: 200px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 2.5% 0;
+			}
+			#maps #cityDropdown {
+				margin-top: 190px;
+				right: 10%;
+				left: 10%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: auto;
+				width: 100%;
+				margin-top: 230px;
+				height: 290px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 10% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 10% 5%;
+				margin-bottom: 10%;
+			}
+			#extended-contact-form .btn {
+				margin-bottom: 5%;
+			}
+			footer.page-footer {
+				margin-top: -10%;
+				padding-top: 10%;
+			}
+			footer .flex-row {
+				flex-direction: column;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 480px) and (max-width: 600px) {
+			#about .huge {
+				font-size: 2.45em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.25em;
+			}
+			h2 {
+				font-size: 2em;
+			}
+			h3 {
+				font-size: 1.75em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.5em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.25em;
+			}
+			h6 {
+				font-size: 1em;
+			}
+			h1,
+			h3 {
+				text-align: center;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.15em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.25em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 15px 0;
+			}
+			main {
+				padding-top: 75px;
+			}
+			nav .brand-logo {
+				margin: 0;
+				width: 100%;
+			}
+			.brand-logo img {
+				height: 75px;
+				margin: 0;
+			}
+			.head_info {
+				position: relative;
+				margin: 100px 5% 0;
+				height: auto;
+				flex-direction: row;
+				justify-content: space-between;
+				width: 90%;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.25em;
+				margin: 0;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			.parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 100%;
+			}
+			#first-screen {
+				margin-top: 50px;
+			}
+			#first-screen .info {
+				margin-left: 0;
+				width: 100%;
+			}
+			#first-screen .feature1 {
+				font-size: 1em;
+				line-height: 1.5;
+				text-align: center;
+				width: 100%;
+			}
+			#contact-form-flipper {
+				top: 450px;
+				width: 100%;
+				right: 0;
+				left: 0;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 75px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 20px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p
+			{
+				margin-bottom: 10%;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			#advantages {
+				margin-top: 0;
+				padding-top: 25%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -5%;
+				padding: 10% 0;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 120px;
+				height: 120px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 80px;
+				width: 80px;
+			}
+			#special .special {
+				right: 5%;
+				left: 20%;
+				width: 75%;
+				margin-top: -15%;
+			}
+			#how_it_works {
+				margin-top: 0;
+				padding: 25% 0;
+			}
+			#result .video-info {
+				position: relative;
+			}
+			#result .video-container {
+				width: 90%;
+				height: 220px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#warning {
+				margin-top: -20%;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -10%;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -5%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 7.5%;
+				height: 200px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 5% 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 190px;
+				right: 10%;
+				left: 10%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: auto;
+				width: 100%;
+				margin-top: 230px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 10% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 10% 5%;
+				margin-bottom: 10%;
+			}
+			#extended-contact-form .btn {
+				margin-bottom: 5%;
+			}
+			footer.page-footer {
+				margin-top: -10%;
+				padding-top: 10%;
+			}
+			footer .flex-row {
+				flex-direction: column;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 601px) and (max-width: 767px) {
+			#about .huge {
+				font-size: 2.575em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.375em;
+			}
+			h2 {
+				font-size: 2.125em;
+			}
+			h3 {
+				font-size: 1.875em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.625em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.325em;
+			}
+			h6 {
+				font-size: 1.125em;
+			}
+			h1,
+			h3 {
+				text-align: center;
+			}
+			#first-screen .feature1 {
+				font-size: 1.5em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.125em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.25em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 10px 0;
+			}
+			nav .brand-logo {
+				margin: 0;
+				width: 100%;
+			}
+			.brand-logo img {
+				height: 75px;
+				margin: 0;
+			}
+			.head_info {
+				position: relative;
+				margin: 100px 5% 0;
+				height: auto;
+				flex-direction: row;
+				justify-content: space-between;
+				width: 90%;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.325em;
+				margin: 0;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 7.5% 0;
+				height: auto;
+			}
+			.parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 125%;
+			}
+			#first-screen .parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 125%;
+				left: 50%;
+			}
+			#first-screen .info {
+				margin-left: 0;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#first-screen .feature1 {
+				font-size: 1.25em;
+				line-height: 2.25;
+				text-align: left;
+				width: 80%;
+			}
+			#contact-form-flipper {
+				top: 320px;
+				width: 260px;
+				right: 5%;
+				left: 5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 75px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 20px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 20%;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			#advantages .explanation {
+				width: 80%;
+			}
+			#advantages p {
+				width: 100%;
+				padding-right: 0;
+				margin-bottom: 5%;
+			}
+			#advantages {
+				margin-top: -20%;
+				padding: 25% 0 15%;
+			}
+			#advantages .advantage-26,
+			#advantages .advantage-28 {
+				width: 48%;
+				margin: 5% 1%;
+			}
+			#advantages .advantage-31 {
+				width: 60%;
+				margin: 5% 20%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -25%;
+				padding: 15% 0;
+			}
+			#prices h1 {
+				text-align: left;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 125px;
+				height: 125px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 75px;
+				width: 75px;
+			}
+			#special .special {
+				right: 5%;
+				left: 20%;
+				width: 70%;
+				margin-top: -15%;
+			}
+			#how_it_works {
+				margin-top: -10%;
+				padding: 25% 0;
+			}
+			#result .video-info {
+				position: relative;
+			}
+			#result .video-container {
+				width: 90%;
+				height: 220px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -25%;
+				height: auto;
+			}
+			#about {
+				margin-top: -20%;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#about .about-page-103, #about .about-page-106,
+			#about .about-page-109 {
+				height: 100px;
+				margin: 10px 0;
+			}
+			#about .about-page-109 {
+				margin: 10px 25%;
+			}
+			#maps {
+				margin-top: -2.5%;
+				padding: 10% 0;
+			}
+			#maps .map-banner {
+				margin-top: -10%;
+				padding-top: 7.5%;
+				height: 200px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 190px;
+				right: 20%;
+				left: 20%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: auto;
+				width: 100%;
+				margin-top: 230px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 10% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 10% 5%;
+				margin-bottom: 10%;
+			}
+			#extended-contact-form .btn {
+				margin-bottom: 5%;
+			}
+			footer.page-footer {
+				margin-top: -15%;
+				padding-top: 10%;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 768px) and (max-width: 992px) {
+			#about .huge {
+				font-size: 2.7em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.5em;
+			}
+			h2 {
+				font-size: 2.25em;
+			}
+			h3 {
+				font-size: 2em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.75em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.5em;
+			}
+			h6 {
+				font-size: 1.25em;
+			}
+			h1,
+			h3 {
+				text-align: center;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.25em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.325em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 10px 0;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			nav .brand-logo {
+				left: 25%;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.25em;
+				margin: 0;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 5% 0;
+				height: auto;
+			}
+			#first-screen .parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 125%;
+			}
+			#first-screen .info {
+				margin-left: 0;
+			}
+			#first-screen .feature1 {
+				font-size: 1.5em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 320px;
+				width: 300px;
+				right: 2.5%;
+				left: 5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 50px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 30px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 30%;
+			}
+			#advantages .explanation {
+				width: 80%;
+			}
+			#advantages {
+				margin-top: -15%;
+				padding: 10% 0 10%;
+			}
+			#advantages p {
+				width: 100%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.125em;
+			}
+			#advantages .advantage-26, #advantages .advantage-28, #advantages .advantage-31{
+				width: 30%;
+				margin: 5% 1.5%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -15%;
+				padding: 12.5% 0 15%;
+			}
+			#prices h1 {
+				text-align: left;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 120px;
+				height: 120px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 80px;
+				width: 80px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 60%;
+				margin-top: -15%;
+			}
+			#how_it_works {
+				margin-top: -10%;
+				padding: 25% 0 15%;
+			}
+			#result .video-info {
+				position: relative;
+			}
+			#result .video-container {
+				width: 90%;
+				height: 320px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -15%;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -7.5%;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-page-103, #about .about-page-106,
+			#about .about-page-109 {
+				height: 100px;
+				margin: 10px 0;
+			}
+			#about .about-page-109 {
+				margin: 10px 25%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -2.5%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 7.5%;
+				height: 200px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 190px;
+				right: 5%;
+				left: 70%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 17.5%;
+				width: 100%;
+				margin-top: 230px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 10% 0 7.5%;
+			}
+			#extended_form #extended-contact-form {
+				padding: 10% 5%;
+				margin-bottom: 2.5%;
+			}
+			#extended-contact-form .btn {
+				margin-bottom: 5%;
+			}
+			footer.page-footer {
+				margin-top: -10%;
+				padding-top: 2.5%;
+			}
+			footer .flex-row {
+				justify-content: space-between;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 993px) and (max-width: 1024px) {
+			#about .huge {
+				font-size: 2.75em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.5em;
+			}
+			h2 {
+				font-size: 2.25em;
+			}
+			h3 {
+				font-size: 2em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.875em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.75em;
+			}
+			h6 {
+				font-size: 1.325em;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.125em;
+			}
+			input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea, .select-wrapper input.select-dropdown, .dropdown-content li > a, .dropdown-content li > span {
+				margin: 15px 0;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			.container-wide {
+				width: 90%;
+			}
+			header,
+			nav .nav-wrapper,
+			nav,
+			.navbar-fixed {
+				line-height: 1;
+				height: 125px;
+			}
+			nav .container {
+				width: 70%;
+				height: 125px;
+				margin: 0 15%;
+			}
+			nav .brand-logo {
+				left: 0;
+			}
+			.head_info {
+				width: auto;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.25em;
+				margin: 0;
+				line-height: normal;
+			}
+			.head-slogan p {
+				margin: 10px 0;
+				line-height: 2.5em;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 5% 0;
+				height: auto;
+			}
+			#first-screen .parallax img {
+				min-width: auto;
+				max-width: none;
+				width: auto;
+				height: 125%;
+			}
+			#first-screen .info {
+				margin-left: 0;
+			}
+			#first-screen .feature1 {
+				font-size: 1.5em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 320px;
+				width: 300px;
+				right: 2.5%;
+				left: 5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 50px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 15px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 15%;
+			}
+			#advantages {
+				margin-top: -10%;
+				padding-top: 7.5%;
+				padding-bottom: 10%;
+			}
+			#advantages p {
+				width: 95%;
+				padding-right: 5%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.125em;
+			}
+			#advantages .advantage {
+				width: 30%;
+				margin: 7.5% 1.5%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -10%;
+				padding: 10% 0 12.5%;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 130px;
+				height: 130px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 90px;
+				width: 90px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 40%;
+				margin-top: -17.5%;
+			}
+			#special h5 {
+				font-size: 1.25em;
+			}
+			#how_it_works {
+				margin-top: -17.5%;
+				padding: 10% 0 7.5%;
+			}
+			#how_it_works .stepped {
+				width: 90%;
+			}
+			#how_it_works .how_it_works {
+				width: 33%;
+			}
+			#result .video-info {
+				margin: 0 auto;
+				right: 5%;
+			}
+			#result .video-container {
+				width: 100%;
+				height: 180px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -7.5%;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -5%;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -2.5%;
+				padding: 5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -10%;
+				padding-top: 7.5%;
+				height: 175px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 135px;
+				right: 5%;
+				left: 75%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 17.5%;
+				width: 100%;
+				margin-top: 175px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -2.5%;
+				padding: 7.5% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 7.5% 2.5%;
+				margin-bottom: 2.5%;
+			}
+			#extended_form #contactForm {
+				width: 90%;
+			}
+			footer.page-footer {
+				margin-top: -10%;
+				padding-top: 2.5%;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 1025px) and (max-width: 1280px) {
+			#about .huge {
+				font-size: 2.75em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.5em;
+			}
+			h2 {
+				font-size: 2.25em;
+			}
+			h3 {
+				font-size: 2em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 1.875em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.75em;
+			}
+			h6 {
+				font-size: 1.325em;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.125em;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			.container-wide {
+				width: 90%;
+			}
+			header,
+			nav .nav-wrapper,
+			nav,
+			.navbar-fixed {
+				line-height: 1;
+				height: 125px;
+			}
+			nav .container {
+				width: 70%;
+				height: 125px;
+				margin: 0 15%;
+			}
+			nav .brand-logo {
+				left: 0;
+			}
+			.head_info {
+				width: auto;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.25em;
+				margin: 0;
+				line-height: normal;
+			}
+			.head-slogan p {
+				margin: 10px 0;
+				line-height: 2.5em;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 10% 0;
+				height: auto;
+			}
+			#first-screen .info {
+				margin-left: 0;
+				margin-top: -5%;
+			}
+			#first-screen .feature1 {
+				font-size: 1.5em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 320px;
+				width: 300px;
+				right: 2.5%;
+				left: 5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 50px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 25px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 20%;
+			}
+			#advantages {
+				margin-top: -17.5%;
+				padding: 17.5% 0 15%
+			}
+			#advantages p {
+				width: 80%;
+				padding-right: 5%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.125em;
+			}
+			#advantages .advantage {
+				width: 30%;
+				margin: 5% 1.5%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -17.5%;
+				padding: 10% 0;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 130px;
+				height: 130px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 90px;
+				width: 90px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 40%;
+				margin-top: -15%;
+			}
+			#special h5 {
+				font-size: 1.25em;
+			}
+			#how_it_works {
+				margin-top: -17.5%;
+				padding: 15% 0;
+			}
+			#how_it_works .stepped {
+				width: 90%;
+			}
+			#how_it_works .how_it_works {
+				width: 33%;
+			}
+			#result .video-info {
+				margin: 0 auto;
+				right: 5%;
+			}
+			#result .video-container {
+				width: 100%;
+				height: 180px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -12.5%;
+				padding: 2.5% 0;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -7.5%;
+				padding: 7.5% 0;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -7.5%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 7.5%;
+				height: 175px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 170px;
+				right: 5%;
+				left: 75%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 19%;
+				width: 100%;
+				margin-top: 210px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 7.5% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 7.5% 2.5%;
+				margin-bottom: 2.5%;
+			}
+			#extended_form #contactForm {
+				width: 90%;
+			}
+			footer.page-footer {
+				margin-top: -7.5%;
+				padding-top: 5%;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 1281px) and (max-width: 1600px) {
+			#about .huge {
+				font-size: 3em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.75em;
+			}
+			h2 {
+				font-size: 2.5em;
+			}
+			h3 {
+				font-size: 2.25em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 2em;
+			}
+			h5,
+			#special h5 {
+				font-size: 1.875em;
+			}
+			h6 {
+				font-size: 1.5em;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.25em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.5em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.125em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.25em;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			.container-wide {
+				width: 90%;
+			}
+			header,
+			nav .nav-wrapper,
+			nav,
+			.navbar-fixed {
+				line-height: 1;
+				height: 125px;
+			}
+			nav .container {
+				width: 70%;
+				height: 125px;
+				margin: 0 15%;
+			}
+			nav .brand-logo {
+				left: 0;
+			}
+			.head_info {
+				width: auto;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.25em;
+				margin: 0;
+				line-height: normal;
+			}
+			.head-slogan p {
+				margin: 10px 0;
+				line-height: 2.5em;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1em;
+				height: 30px;
+				line-height: 30px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 12.5% 0;
+				height: auto;
+			}
+			#first-screen .info {
+				margin-left: 0;
+				margin-top: -5%;
+			}
+			#first-screen .feature1 {
+				width: 55%;
+				font-size: 1.625em;
+				line-height: 2.65;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 360px;
+				right: 5%;
+				left: 5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 50px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 30px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 20%;
+			}
+			#advantages {
+				margin-top: -15%;
+				padding: 15% 0 10%;
+			}
+			#advantages p {
+				width: 95%;
+				padding-right: 5%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.125em;
+			}
+			#advantages .advantage {
+				width: 30%;
+				margin: 5% 1.5%;
+			}
+			#prices {
+				height: auto;
+				margin-top: -10%;
+				padding: 10% 0;
+			}
+			#prices .header {
+				letter-spacing: .025em;
+				padding: 0 5px;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 140px;
+				height: 140px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 100px;
+				width: 100px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 40%;
+				margin-top: -15%;
+			}
+			#special h5 {
+				font-size: 1.25em;
+			}
+			#how_it_works {
+				margin-top: -17.5%;
+				padding: 12.5% 0;
+			}
+			#how_it_works .stepped {
+				width: 90%;
+			}
+			#how_it_works .how_it_works {
+				width: 33%;
+			}
+			#result .video-info {
+				margin: 0 auto;
+				right: 5%;
+			}
+			#result .video-container {
+				width: 100%;
+				height: 240px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -10%;
+				padding: 2.5% 0;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -5%;
+				padding: 7.5% 0;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 0 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -7.5%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 5%;
+				height: 175px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 170px;
+				right: 5%;
+				left: 75%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 25%;
+				width: 100%;
+				margin-top: 210px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -10%;
+				padding: 7.5% 0;
+			}
+			#extended_form h1 {
+				margin: 5% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 7.5% 2.5%;
+				margin-bottom: 2.5%;
+			}
+			#extended_form #contactForm {
+				width: 90%;
+			}
+			footer.page-footer {
+				margin-top: -7.5%;
+				padding-top: 2.5%;
+			}
+			footer .brand-logo img {
+				height: 50px;
+			}
+		}
+
+		@media all and (min-width: 1601px) and (max-width: 1920px) {
+			#about .huge {
+				font-size: 3.125em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 2.875em;
+			}
+			h2 {
+				font-size: 2.625em;
+			}
+			h3 {
+				font-size: 2.325em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 2.125em;
+			}
+			h5,
+			#special h5 {
+				font-size: 2em;
+			}
+			h6 {
+				font-size: 1.625em;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.325em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.625em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.25em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.5em;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			header,
+			nav .nav-wrapper,
+			nav,
+			.navbar-fixed {
+				line-height: 1;
+				height: 125px;
+			}
+			nav .container {
+				height: 125px;
+				margin: 0 15%;
+			}
+			nav .brand-logo {
+				left: 0;
+			}
+			.head_info {
+				width: auto;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.325em;
+				margin: 0;
+				line-height: normal;
+			}
+			.head-slogan p {
+				margin: 10px 0;
+				line-height: 1.5em;
+			}
+			.brand-logo img {
+				height: 100px;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1.125em;
+				height: 35px;
+				line-height: 35px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 12.5% 0;
+				height: auto;
+			}
+			#first-screen .info {
+				margin-left: -5%;
+				margin-top: -5%;
+			}
+			#first-screen .feature1 {
+				width: 60%;
+				font-size: 1.875em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 420px;
+				right: 5%;
+				left: 5%;
+				padding: 0 2.5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 75px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 30px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 30%;
+			}
+			#advantages {
+				margin-top: -15%;
+				padding: 12.5% 0 12.5%;
+			}
+			#advantages p {
+				width: 100%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.25em;
+			}
+			#prices {
+				height: auto;
+				margin-top: -12.5%;
+				padding: 10% 0;
+			}
+			#prices .header {
+				letter-spacing: .025em;
+				padding: 0 5px;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 150px;
+				height: 150px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 100px;
+				width: 100px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 35%;
+				margin-top: -15%;
+			}
+			#special h5 {
+				font-size: 1.325em;
+			}
+			#how_it_works {
+				margin-top: -17.5%;
+				padding: 10% 0;
+			}
+			#how_it_works .stepped {
+				width: 90%;
+			}
+			#how_it_works .how_it_works {
+				width: 33%;
+			}
+			#result .video-info {
+				width: 35%;
+				left: auto;
+				margin: 0;
+				right: 5%;
+			}
+			#result .video-container {
+				width: 100%;
+				height: 280px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -7.5%;
+				padding: 2.5% 0;
+				height: auto;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -7.5%;
+				padding: 5% 0;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 5% 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -5%;
+				padding: 7.5% 0;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 5%;
+				height: 200px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 200px;
+				right: 5%;
+				left: 80%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 25%;
+				width: 100%;
+				margin-top: 240px;
+				height: 280px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -5%;
+				padding: 7.5% 0;
+			}
+			#extended_form #extended-contact-form {
+				padding: 7.5% 5%;
+				margin-bottom: 2.5%;
+			}
+			#extendedContactForm .input-field {
+				margin: 25px 0;
+			}
+			footer.page-footer {
+				margin-top: -7.5%;
+				padding-top: 2.5%;
+			}
+			footer .brand-logo img {
+				height: 75px;
+			}
+		}
+
+		@media all and (min-width: 1921px) {
+			#about .huge {
+				font-size: 3.25em;
+			}
+			h1,
+			#special h1,
+			#warning h1,
+			#about h1,
+			#about .about-text h1,
+			#maps h1,
+			#extended_form h1 {
+				font-size: 3em;
+			}
+			h2 {
+				font-size: 2.75em;
+			}
+			h3 {
+				font-size: 2.5em;
+			}
+			h4,
+			#about .about-text h4 {
+				font-size: 2.25em;
+			}
+			h5,
+			#special h5 {
+				font-size: 2.125em;
+			}
+			h6 {
+				font-size: 1.75em;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#advantages p,
+			#advantages .advantage p,
+			#prices .more,
+			#prices .to_form,
+			#how_it_works .how_it_works p,
+			#warning p,
+			#about .about-page p,
+			#maps #dropdown_city li a,
+			#extended-contact-form .btn,
+			#first-screen .feature1,
+			footer p {
+				font-size: 1.5em;
+			}
+			#advantages .advantage p.uppercase,
+			#prices .header,
+			#prices .discount,
+			#how_it_works .how_it_works p.header,
+			#result .video-header,
+			#about .about-page p.header {
+				font-size: 1.75em;
+			}
+			input:not([type]).validate + label,
+			input[type=text].validate + label,
+			input[type=password].validate + label,
+			input[type=email].validate + label,
+			input[type=url].validate + label,
+			input[type=time].validate + label,
+			input[type=date].validate + label,
+			input[type=datetime].validate + label,
+			input[type=datetime-local].validate + label,
+			input[type=tel].validate + label,
+			input[type=number].validate + label,
+			input[type=search].validate + label,
+			textarea.materialize-textarea.validate + label,
+			.character-counter {
+				font-size: 1.325em;
+			}
+			input:not([type]),
+			input[type=text],
+			input[type=password],
+			input[type=email],
+			input[type=url],
+			input[type=time],
+			input[type=date],
+			input[type=datetime],
+			input[type=datetime-local],
+			input[type=tel],
+			input[type=number],
+			input[type=search],
+			textarea.materialize-textarea,
+			.select-wrapper input.select-dropdown,
+			.dropdown-content li > a,
+			.dropdown-content li > span {
+				font-size: 1.625em;
+			}
+			#prices .swiper-slide {
+				min-height: 100px;
+				padding: 0 2.5%;
+			}
+			#prices .swiper-container {
+				width: 100%;
+				margin: 0 auto;
+			}
+			header,
+			nav .nav-wrapper,
+			nav,
+			.navbar-fixed {
+				line-height: 1;
+				height: 125px;
+			}
+			nav .container {
+				height: 125px;
+				margin: 0 15%;
+			}
+			nav .brand-logo {
+				left: 0;
+			}
+			.head_info {
+				width: auto;
+			}
+			.head_info a,
+			.head-slogan p {
+				font-size: 1.5em;
+				margin: 0;
+				line-height: normal;
+			}
+			.head-slogan p {
+				margin: 10px 0;
+				line-height: 1.5em;
+			}
+			.brand-logo img {
+				height: 100px;
+			}
+			#small-contact-form .btn,
+			.head_info a.btn {
+				font-size: 1.125em;
+				height: 35px;
+				line-height: 35px;
+				margin: 0;
+			}
+			#first-screen {
+				padding: 10% 0;
+				height: auto;
+			}
+			#first-screen .info {
+				margin-left: -5%;
+				margin-top: -5%;
+			}
+			#first-screen .feature1 {
+				width: 60%;
+				font-size: 2em;
+				line-height: 2.5;
+				letter-spacing: .02em;
+			}
+			#first-screen .info h1 {
+				margin: 25px 0 10px 0;
+				text-align: left;
+			}
+			#first-screen .info h3 {
+				margin: 10px 0;
+				text-align: left;
+			}
+			#contact-form-flipper {
+				top: 480px;
+				right: 5%;
+				left: 5%;
+				padding: 0 2.5%;
+			}
+			#small-contact-form .form-logo,
+			#small-contact .form-logo {
+				height: 100px;
+				width: auto;
+			}
+			#small-contact-form .cta p,
+			#small-contact-form .info p,
+			#small-contact .cta p,
+			#small-contact .info p {
+				width: 100%;
+				margin: 35px 0;
+			}
+			#small-contact-form .cta p,
+			#small-contact .cta p,
+			{
+				margin-bottom: 30%;
+			}
+			#advantages {
+				margin-top: -12.5%;
+				padding: 12.5% 0;
+			}
+			#advantages p {
+				width: 100%;
+			}
+			#advantages .advantage p {
+				text-align: center;
+				width: 100%;
+				font-size: 1.25em;
+			}
+			#prices {
+				height: auto;
+				margin-top: -12.5%;
+				padding: 10% 0;
+			}
+			#prices .header {
+				letter-spacing: .025em;
+				padding: 0 5px;
+			}
+			#prices .circle-with-border,
+			#special .circle-with-border,
+			#how_it_works .picture,
+			#about .picture,
+			#advantages .circle-with-border {
+				width: 150px;
+				height: 150px;
+			}
+			#prices .circle-with-border img,
+			#how_it_works .picture img,
+			#advantages .svg-animate svg,
+			#advantages .circle-with-border img,
+			#how_it_works .svg-animate svg,
+			#about .svg-animate svg,
+			#about .picture img {
+				height: 100px;
+				width: 100px;
+			}
+			#special .special {
+				right: 5%;
+				left: 30%;
+				width: 35%;
+				margin-top: -15%;
+			}
+			#special h5 {
+				font-size: 1.325em;
+			}
+			#how_it_works {
+				margin-top: -15%;
+				padding: 10% 0;
+			}
+			#how_it_works .stepped {
+				width: 90%;
+			}
+			#how_it_works .how_it_works {
+				width: 33%;
+			}
+			#result .video-info {
+				margin: 0 auto;
+				right: 5%;
+			}
+			#result .video-container {
+				width: 100%;
+				height: 360px;
+				padding: 0 5%;
+				margin: 25px auto;
+			}
+			#result .video-header {
+				text-align: center;
+			}
+			#warning {
+				margin-top: -7.5%;
+				height: auto;
+				padding: 2.5% 0;
+			}
+			#warning p {
+				margin: 25px auto;
+			}
+			#about {
+				margin-top: -5%;
+				padding-bottom: 5%;
+			}
+			#about .about-text {
+				width: 30%;
+				margin: 1.5%;
+			}
+			#about .about-text h1,
+			#about .huge,
+			#about .about-text h4 {
+				margin: 5% 0;
+			}
+			#about .about-page {
+				padding-bottom: 0;
+			}
+			#maps {
+				margin-top: -5%;
+				padding: 7.5% 0;
+				min-height: 720px;
+			}
+			#maps .map-banner {
+				margin-top: -7.5%;
+				padding-top: 3.75%;
+				height: 175px;
+			}
+			#maps h1 {
+				width: 90%;
+				margin: 0 2.5%;
+			}
+			#maps #cityDropdown {
+				margin-top: 165px;
+				right: 5%;
+				left: 80%;
+				text-align: center;
+			}
+			#maps #dropdown_city {
+				left: auto;
+				right: 25%;
+				width: 100%;
+				margin-top: 200px;
+				height: 320px;
+			}
+			#maps #dropdown_city li {
+				margin: 20px auto;
+			}
+			#maps #dropdown_city li a {
+				padding: 0 10px;
+			}
+			#extended_form {
+				margin-top: -5%;
+				padding: 7.5% 0 5%;
+			}
+			#extended_form #extended-contact-form {
+				padding: 10% 5%;
+				margin-bottom: 2.5%;
+			}
+			#extendedContactForm .input-field {
+				margin: 25px 0;
+			}
+			footer.page-footer {
+				margin-top: -5%;
+				padding-top: 2.5%;
+			}
+			footer .brand-logo img {
+				height: 100px;
+			}
+		}
+		#header_clipper_s,
+		#header_clipper_m,
+		#header_clipper_l,
+		#firstScreen_clipper_s,
+		#firstScreen_clipper_m,
+		#firstScreen_clipper_l,
+		#smallForm_clipper_s,
+		#smallForm_clipper_m,
+		#smallForm_clipper_l,
+		#first_clipper_s,
+		#first_clipper_m,
+		#first_clipper_l
+		#second_clipper_s,
+		#second_clipper_m,
+		#second_clipper_l,
+		#special_clipper_s,
+		#special_clipper_m,
+		#special_clipper_l,
+		#footer_clipper_s,
+		#footer_clipper_m,
+		#footer_clipper_l,
+		svg:not(:root){
+			position: absolute;
+			width: 0;
+			height: 0;
+			padding:0;
+			margin:0;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			transform-origin: 0;
+		}
+			#price_clipper {
+			position: absolute;
+			width: 0;
+			height: 0;
+			transform: translateZ(0) !important;
+		}
+
+		@media all and (min-width: 0) and (max-width: 601px) {
+			header,
+			nav,
+			nav .nav-wrapper,
+			.navbar-fixed {
+				mask: url(#headClip_s);
+				clip-path: url(#headClip_s);
+				-apple-: url(#headClip_s);
+				-khtml-: url(#headClip_s);
+				-webkit-clip-path: url(#headClip_s);
+				-moz-clip-path: url(#headClip_s);
+				-o-clip-path: url(#headClip_s);
+			transform: translateZ(0) !important;
+			}
+			#small-contact-form {
+				mask: url(#smallForm_s);
+				clip-path: url(#smallForm_s);
+				-apple-: url(#smallForm_s);
+				-khtml-: url(#smallForm_s);
+				-webkit-clip-path: url(#smallForm_s);
+				-moz-clip-path: url(#smallForm_s);
+				-o-clip-path: url(#smallForm_s);
+			transform: translateZ(0);
+			}
+			#small-contact {
+				mask: url(#smallForm_s);
+				clip-path: url(#smallForm_s);
+				-apple-: url(#smallForm_s);
+				-khtml-: url(#smallForm_s);
+				-webkit-clip-path: url(#smallForm_s);
+				-moz-clip-path: url(#smallForm_s);
+				-o-clip-path: url(#smallForm_s);
+			}
+			#first-screen {
+				mask: url(#firstScreen_s);
+				clip-path: url(#firstScreen_s);
+				-apple-: url(#firstScreen_s);
+				-khtml-: url(#firstScreen_s);
+				-webkit-clip-path: url(#firstScreen_s);
+				-moz-clip-path: url(#firstScreen_s);
+				-o-clip-path: url(#firstScreen_s);
+			transform: translateZ(0) !important;
+			}
+			#advantages,
+			#how_it_works,
+			#about,
+			#extended_form {
+				mask: url(#firstClip_s);
+				clip-path: url(#firstClip_s);
+				-apple-: url(#firstClip_s);
+				-khtml-: url(#firstClip_s);
+				-webkit-clip-path: url(#firstClip_s);
+				-moz-clip-path: url(#firstClip_s);
+				-o-clip-path: url(#firstClip_s);
+			transform: translateZ(0) !important;
+			}
+			#prices,
+			#warning,
+			#maps,
+			#extended-contact-form {
+				mask: url(#secondClip_s);
+				clip-path: url(#secondClip_s);
+				-apple-: url(#secondClip_s);
+				-khtml-: url(#secondClip_s);
+				-webkit-clip-path: url(#secondClip_s);
+				-moz-clip-path: url(#secondClip_s);
+				-o-clip-path: url(#secondClip_s);
+			transform: translateZ(0) !important;
+			}
+			#prices .cards {
+				mask: url(#priceClip);
+				clip-path: url(#priceClip);
+				-apple-: url(#priceClip);
+				-khtml-: url(#priceClip);
+				-webkit-clip-path: url(#priceClip);
+				-moz-clip-path: url(#priceClip);
+				-o-clip-path: url(#priceClip);
+				transform: translateZ(0) !important;
+			}
+			#special .special {
+				mask: url(#specialClip_s);
+				clip-path: url(#specialClip_s);
+				-apple-: url(#specialClip_s);
+				-khtml-: url(#specialClip_s);
+				-webkit-clip-path: url(#specialClip_s);
+				-moz-clip-path: url(#specialClip_s);
+				-o-clip-path: url(#specialClip_s);
+			transform: translateZ(0) !important;
+			}
+			footer.page-footer {
+				mask: url(#footerClip_s);
+				clip-path: url(#footerClip_s);
+				-apple-: url(#footerClip_s);
+				-khtml-: url(#footerClip_s);
+				-webkit-clip-path: url(#footerClip_s);
+				-moz-clip-path: url(#footerClip_s);
+				-o-clip-path: url(#footerClip_s);
+			transform: translateZ(0) !important;
+			}
+		}
+
+		@media all and (min-width: 601px) and (max-width: 1024px) {
+			header,
+			nav,
+			nav .nav-wrapper,
+			.navbar-fixed {
+				mask: url(#headClip_m);
+				clip-path: url(#headClip_m);
+				-apple-: url(#headClip_m);
+				-khtml-: url(#headClip_m);
+				-webkit-clip-path: url(#headClip_m);
+				-moz-clip-path: url(#headClip_m);
+				-o-clip-path: url(#headClip_m);
+			transform: translateZ(0) !important;
+			}
+			#small-contact-form {
+				mask: url(#smallForm_m);
+				clip-path: url(#smallForm_m);
+				-apple-: url(#smallForm_m);
+				-khtml-: url(#smallForm_m);
+				-webkit-clip-path: url(#smallForm_m);
+				-moz-clip-path: url(#smallForm_m);
+				-o-clip-path: url(#smallForm_m);
+			transform: translateZ(0);
+			}
+			#small-contact {
+				mask: url(#smallForm_m);
+				clip-path: url(#smallForm_m);
+				-apple-: url(#smallForm_m);
+				-khtml-: url(#smallForm_m);
+				-webkit-clip-path: url(#smallForm_m);
+				-moz-clip-path: url(#smallForm_m);
+				-o-clip-path: url(#smallForm_m);
+			}
+			#first-screen {
+				mask: url(#firstScreen_m);
+				clip-path: url(#firstScreen_m);
+				-apple-: url(#firstScreen_m);
+				-khtml-: url(#firstScreen_m);
+				-webkit-clip-path: url(#firstScreen_m);
+				-moz-clip-path: url(#firstScreen_m);
+				-o-clip-path: url(#firstScreen_m);
+			transform: translateZ(0) !important;
+			}
+			#advantages,
+			#how_it_works,
+			#about,
+			#extended_form {
+				mask: url(#firstClip_s);
+				clip-path: url(#firstClip_s);
+				-apple-: url(#firstClip_s);
+				-khtml-: url(#firstClip_s);
+				-webkit-clip-path: url(#firstClip_s);
+				-moz-clip-path: url(#firstClip_s);
+				-o-clip-path: url(#firstClip_s);
+			transform: translateZ(0) !important;
+			}
+			#prices,
+			#warning,
+			#maps,
+			#extended-contact-form {
+				mask: url(#secondClip_s);
+				clip-path: url(#secondClip_s);
+				-apple-: url(#secondClip_s);
+				-khtml-: url(#secondClip_s);
+				-webkit-clip-path: url(#secondClip_s);
+				-moz-clip-path: url(#secondClip_s);
+				-o-clip-path: url(#secondClip_s);
+			transform: translateZ(0) !important;
+			}
+			#prices .cards {
+				mask: url(#priceClip);
+				clip-path: url(#priceClip);
+				-apple-: url(#priceClip);
+				-khtml-: url(#priceClip);
+				-webkit-clip-path: url(#priceClip);
+				-moz-clip-path: url(#priceClip);
+				-o-clip-path: url(#priceClip);
+				transform: translateZ(0) !important;
+			}
+			#special .special {
+				mask: url(#specialClip_m);
+				clip-path: url(#specialClip_m);
+				-apple-: url(#specialClip_m);
+				-khtml-: url(#specialClip_m);
+				-webkit-clip-path: url(#specialClip_m);
+				-moz-clip-path: url(#specialClip_m);
+				-o-clip-path: url(#specialClip_m);
+			transform: translateZ(0) !important;
+			}
+			footer.page-footer {
+				mask: url(#footerClip_m);
+				clip-path: url(#footerClip_m);
+				-apple-: url(#footerClip_m);
+				-khtml-: url(#footerClip_m);
+				-webkit-clip-path: url(#footerClip_m);
+				-moz-clip-path: url(#footerClip_m);
+				-o-clip-path: url(#footerClip_m);
+			transform: translateZ(0) !important;
+			}
+		}
+
+		@media all and (min-width: 1025px) {
+			header,
+			nav,
+			nav .nav-wrapper,
+			.navbar-fixed {
+				mask: url(#headClip_l);
+				clip-path: url(#headClip_l);
+				-apple-: url(#headClip_l);
+				-khtml-: url(#headClip_l);
+				-webkit-clip-path: url(#headClip_l);
+				-moz-clip-path: url(#headClip_l);
+				-o-clip-path: url(#headClip_l);
+			transform: translateZ(0) !important;
+			}
+			#small-contact-form {
+				mask: url(#smallForm_l);
+				clip-path: url(#smallForm_l);
+				-apple-: url(#smallForm_l);
+				-khtml-: url(#smallForm_l);
+				-webkit-clip-path: url(#smallForm_l);
+				-moz-clip-path: url(#smallForm_l);
+				-o-clip-path: url(#smallForm_l);
+			transform: translateZ(0);
+			}
+			#small-contact {
+				mask: url(#smallForm_l);
+				clip-path: url(#smallForm_l);
+				-apple-: url(#smallForm_l);
+				-khtml-: url(#smallForm_l);
+				-webkit-clip-path: url(#smallForm_l);
+				-moz-clip-path: url(#smallForm_l);
+				-o-clip-path: url(#smallForm_l);
+			}
+			#first-screen {
+				mask: url(#firstScreen_l);
+				clip-path: url(#firstScreen_l);
+				-apple-: url(#firstScreen_l);
+				-khtml-: url(#firstScreen_l);
+				-webkit-clip-path: url(#firstScreen_l);
+				-moz-clip-path: url(#firstScreen_l);
+				-o-clip-path: url(#firstScreen_l);
+			transform: translateZ(0) !important;
+			}
+			#advantages,
+			#how_it_works,
+			#about,
+			#extended_form {
+				mask: url(#firstClip_l);
+				clip-path: url(#firstClip_l);
+				-apple-: url(#firstClip_l);
+				-khtml-: url(#firstClip_l);
+				-webkit-clip-path: url(#firstClip_l);
+				-moz-clip-path: url(#firstClip_l);
+				-o-clip-path: url(#firstClip_l);
+			transform: translateZ(0) !important;
+			}
+			#prices,
+			#warning,
+			#maps,
+			#extended-contact-form {
+				mask: url(#secondClip_l);
+				clip-path: url(#secondClip_l);
+				-apple-: url(#secondClip_l);
+				-khtml-: url(#secondClip_l);
+				-webkit-clip-path: url(#secondClip_l);
+				-moz-clip-path: url(#secondClip_l);
+				-o-clip-path: url(#secondClip_l);
+			transform: translateZ(0) !important;
+			}
+			#prices .cards:nth-of-type(odd) {
+				mask: url(#firstClip_s);
+				clip-path: url(#firstClip_s);
+				-apple-: url(#firstClip_s);
+				-khtml-: url(#firstClip_s);
+				-webkit-clip-path: url(#firstClip_s);
+				-moz-clip-path: url(#firstClip_s);
+				-o-clip-path: url(#firstClip_s);
+			transform: translateZ(0) !important;
+				min-height: 500px;
+			}
+			#prices .cards:nth-of-type(even) {
+				mask: url(#secondClip_s);
+				clip-path: url(#secondClip_s);
+				-apple-: url(#secondClip_s);
+				-khtml-: url(#secondClip_s);
+				-webkit-clip-path: url(#secondClip_s);
+				-moz-clip-path: url(#secondClip_s);
+				-o-clip-path: url(#secondClip_s);
+			transform: translateZ(0) !important;
+				min-height: 500px;
+			}
+			#special .special {
+				mask: url(#specialClip_l);
+				clip-path: url(#specialClip_l);
+				-apple-: url(#specialClip_l);
+				-khtml-: url(#specialClip_l);
+				-webkit-clip-path: url(#specialClip_l);
+				-moz-clip-path: url(#specialClip_l);
+				-o-clip-path: url(#specialClip_l);
+			transform: translateZ(0) !important;
+			}
+			footer.page-footer {
+				mask: url(#footerClip_l);
+				clip-path: url(#footerClip_l);
+				-apple-: url(#footerClip_l);
+				-khtml-: url(#footerClip_l);
+				-webkit-clip-path: url(#footerClip_l);
+				-moz-clip-path: url(#footerClip_l);
+				-o-clip-path: url(#footerClip_l);
+			transform: translateZ(0) !important;
+			}
+		}
+		@media all and (min-width: 0) and (max-width: 991px) {
+			#prices .prices {
+				overflow: hidden;
+				opacity: 1;
+			}
+		}
+.invisible {
+	opacity: 0 !important;
+}
+
+@media all and (min-width: 601px) {
+	nav .brand-logo {
+		top: 0;
+		margin: .75% 50px;
+	}
+	.head-slogan p {
+		width: 95%;
+	}
+	#result .video-info {
+		position: absolute;
+	}
+}

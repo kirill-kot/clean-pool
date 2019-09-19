@@ -1,0 +1,3064 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["91.442387", "53.721152"]
+		},
+		"properties": {
+			"id": "0",
+			"address": "\u0410\u0431\u0430\u043a\u0430\u043d",
+			"index": "0",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["114.537849", "51.103662"]
+		},
+		"properties": {
+			"id": "1",
+			"address": "\u0410\u0433\u0438\u043d\u0441\u043a\u043e\u0435",
+			"index": "1",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["125.381673", "58.609451"]
+		},
+		"properties": {
+			"id": "2",
+			"address": "\u0410\u043b\u0434\u0430\u043d",
+			"index": "2",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["82.779448", "52.492167"]
+		},
+		"properties": {
+			"id": "3",
+			"address": "\u0410\u043b\u0435\u0439\u0441\u043a",
+			"index": "3",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["85.338173", "51.952232"]
+		},
+		"properties": {
+			"id": "4",
+			"address": "\u0410\u043b\u0442\u0430\u0439\u0441\u043a\u043e\u0435",
+			"index": "4",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["52.297113", "54.901383"]
+		},
+		"properties": {
+			"id": "5",
+			"address": "\u0410\u043b\u044c\u043c\u0435\u0442\u044c\u0435\u0432\u0441\u043a",
+			"index": "5",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["37.316259", "44.894997"]
+		},
+		"properties": {
+			"id": "6",
+			"address": "\u0410\u043d\u0430\u043f\u0430",
+			"index": "6",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["103.888456", "52.544889"]
+		},
+		"properties": {
+			"id": "7",
+			"address": "\u0410\u043d\u0433\u0430\u0440\u0441\u043a",
+			"index": "7",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.018216", "56.083175"]
+		},
+		"properties": {
+			"id": "8",
+			"address": "\u0410\u043d\u0436\u0435\u0440\u043e-\u0421\u0443\u0434\u0436\u0435\u043d\u0441\u043a",
+			"index": "8",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["43.815687", "55.386666"]
+		},
+		"properties": {
+			"id": "9",
+			"address": "\u0410\u0440\u0437\u0430\u043c\u0430\u0441",
+			"index": "9",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["133.269726", "44.162084"]
+		},
+		"properties": {
+			"id": "10",
+			"address": "\u0410\u0440\u0441\u0435\u043d\u044c\u0435\u0432",
+			"index": "10",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["132.159633", "43.350116"]
+		},
+		"properties": {
+			"id": "11",
+			"address": "\u0410\u0440\u0442\u0435\u043c",
+			"index": "11",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["40.516939", "64.539393"]
+		},
+		"properties": {
+			"id": "12",
+			"address": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
+			"index": "12",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["48.033574", "46.347869"]
+		},
+		"properties": {
+			"id": "13",
+			"address": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c",
+			"index": "13",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["90.495231", "56.269496"]
+		},
+		"properties": {
+			"id": "14",
+			"address": "\u0410\u0447\u0438\u043d\u0441\u043a",
+			"index": "14",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["85.810076", "51.947086"]
+		},
+		"properties": {
+			"id": "15",
+			"address": "\u0410\u044f",
+			"index": "15",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["47.782818", "52.022331"]
+		},
+		"properties": {
+			"id": "16",
+			"address": "\u0411\u0430\u043b\u0430\u043a\u043e\u0432\u043e",
+			"index": "16",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["78.341923", "55.350412"]
+		},
+		"properties": {
+			"id": "17",
+			"address": "\u0411\u0430\u0440\u0430\u0431\u0438\u043d\u0441\u043a",
+			"index": "17",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["83.779875", "53.348053"]
+		},
+		"properties": {
+			"id": "18",
+			"address": "\u0411\u0430\u0440\u043d\u0430\u0443\u043b",
+			"index": "18",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.303692", "54.422114"]
+		},
+		"properties": {
+			"id": "19",
+			"address": "\u0411\u0435\u043b\u043e\u0432\u043e",
+			"index": "19",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["128.473926", "50.921315"]
+		},
+		"properties": {
+			"id": "20",
+			"address": "\u0411\u0435\u043b\u043e\u0433\u043e\u0440\u0441\u043a",
+			"index": "20",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.587223", "50.59566"]
+		},
+		"properties": {
+			"id": "21",
+			"address": "\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434",
+			"index": "21",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["84.983959", "51.996094"]
+		},
+		"properties": {
+			"id": "22",
+			"address": "\u0411\u0435\u043b\u043e\u043a\u0443\u0440\u0438\u0445\u0430",
+			"index": "22",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["56.804015", "59.407922"]
+		},
+		"properties": {
+			"id": "23",
+			"address": "\u0411\u0435\u0440\u0435\u0437\u043d\u0438\u043a\u0438",
+			"index": "23",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["85.21382", "52.539297"]
+		},
+		"properties": {
+			"id": "24",
+			"address": "\u0411\u0438\u0439\u0441\u043a",
+			"index": "24",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["134.255034", "46.818592"]
+		},
+		"properties": {
+			"id": "25",
+			"address": "\u0411\u0438\u043a\u0438\u043d",
+			"index": "25",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["132.921736", "48.794662"]
+		},
+		"properties": {
+			"id": "26",
+			"address": "\u0411\u0438\u0440\u043e\u0431\u0438\u0434\u0436\u0430\u043d",
+			"index": "26",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["127.527173", "50.290658"]
+		},
+		"properties": {
+			"id": "27",
+			"address": "\u0411\u043b\u0430\u0433\u043e\u0432\u0435\u0449\u0435\u043d\u0441\u043a",
+			"index": "27",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["114.198968", "57.852118"]
+		},
+		"properties": {
+			"id": "28",
+			"address": "\u0411\u043e\u0434\u0430\u0439\u0431\u043e",
+			"index": "28",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["132.347991", "43.111199"]
+		},
+		"properties": {
+			"id": "29",
+			"address": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041a\u0430\u043c\u0435\u043d\u044c",
+			"index": "29",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["101.63408", "56.151362"]
+		},
+		"properties": {
+			"id": "30",
+			"address": "\u0411\u0440\u0430\u0442\u0441\u043a",
+			"index": "30",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["34.363731", "53.243325"]
+		},
+		"properties": {
+			"id": "31",
+			"address": "\u0411\u0440\u044f\u043d\u0441\u043a",
+			"index": "31",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["140.255376", "49.089753"]
+		},
+		"properties": {
+			"id": "32",
+			"address": "\u0412\u0430\u043d\u0438\u043d\u043e",
+			"index": "32",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["42.10331", "61.065915"]
+		},
+		"properties": {
+			"id": "33",
+			"address": "\u0412\u0435\u043b\u044c\u0441\u043a",
+			"index": "33",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["131.885341", "43.115141"]
+		},
+		"properties": {
+			"id": "34",
+			"address": "\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a",
+			"index": "34",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.681888", "43.020603"]
+		},
+		"properties": {
+			"id": "35",
+			"address": "\u0412\u043b\u0430\u0434\u0438\u043a\u0430\u0432\u043a\u0430\u0437",
+			"index": "35",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["40.40703", "56.129042"]
+		},
+		"properties": {
+			"id": "36",
+			"address": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440",
+			"index": "36",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.516939", "48.707103"]
+		},
+		"properties": {
+			"id": "37",
+			"address": "\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434",
+			"index": "37",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.746162", "48.797909"]
+		},
+		"properties": {
+			"id": "38",
+			"address": "\u0412\u043e\u043b\u0436\u0441\u043a\u0438\u0439",
+			"index": "38",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.200287", "51.661535"]
+		},
+		"properties": {
+			"id": "39",
+			"address": "\u0412\u043e\u0440\u043e\u043d\u0435\u0436",
+			"index": "39",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["53.987392", "57.051806"]
+		},
+		"properties": {
+			"id": "40",
+			"address": "\u0412\u043e\u0442\u043a\u0438\u043d\u0441\u043a",
+			"index": "40",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["85.960373", "51.958182"]
+		},
+		"properties": {
+			"id": "41",
+			"address": "\u0413\u043e\u0440\u043d\u043e-\u0410\u043b\u0442\u0430\u0439\u0441\u043a",
+			"index": "41",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["45.694909", "43.317776"]
+		},
+		"properties": {
+			"id": "42",
+			"address": "\u0413\u0440\u043e\u0437\u043d\u044b\u0439",
+			"index": "42",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["135.566179", "44.554018"]
+		},
+		"properties": {
+			"id": "43",
+			"address": "\u0414\u0430\u043b\u044c\u043d\u0435\u0433\u043e\u0440\u0441\u043a",
+			"index": "43",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["133.731738", "45.93085"]
+		},
+		"properties": {
+			"id": "44",
+			"address": "\u0414\u0430\u043b\u044c\u043d\u0435\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+			"index": "44",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["33.366861", "45.190445"]
+		},
+		"properties": {
+			"id": "45",
+			"address": "\u0415\u0432\u043f\u0430\u0442\u043e\u0440\u0438\u044f",
+			"index": "45",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["60.605514", "56.838607"]
+		},
+		"properties": {
+			"id": "46",
+			"address": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
+			"index": "46",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["117.32904", "49.650584"]
+		},
+		"properties": {
+			"id": "47",
+			"address": "\u0417\u0430\u0431\u0430\u0439\u043a\u0430\u043b\u044c\u0441\u043a",
+			"index": "47",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["84.931551", "53.706332"]
+		},
+		"properties": {
+			"id": "48",
+			"address": "\u0417\u0430\u0440\u0438\u043d\u0441\u043a",
+			"index": "48",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["94.588934", "56.113236"]
+		},
+		"properties": {
+			"id": "49",
+			"address": "\u0417\u0435\u043b\u0435\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+			"index": "49",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["102.049065", "53.92072"]
+		},
+		"properties": {
+			"id": "50",
+			"address": "\u0417\u0438\u043c\u0430",
+			"index": "50",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["59.672641", "55.171488"]
+		},
+		"properties": {
+			"id": "51",
+			"address": "\u0417\u043b\u0430\u0442\u043e\u0443\u0441\u0442",
+			"index": "51",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["40.973921", "57.000348"]
+		},
+		"properties": {
+			"id": "52",
+			"address": "\u0418\u0432\u0430\u043d\u043e\u0432\u043e",
+			"index": "52",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["53.211463", "56.852775"]
+		},
+		"properties": {
+			"id": "53",
+			"address": "\u0418\u0436\u0435\u0432\u0441\u043a",
+			"index": "53",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["104.28066", "52.286387"]
+		},
+		"properties": {
+			"id": "54",
+			"address": "\u0418\u0440\u043a\u0443\u0442\u0441\u043a",
+			"index": "54",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["83.306382", "54.642582"]
+		},
+		"properties": {
+			"id": "55",
+			"address": "\u0418\u0441\u043a\u0438\u0442\u0438\u043c",
+			"index": "55",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["69.479639", "56.11055"]
+		},
+		"properties": {
+			"id": "56",
+			"address": "\u0418\u0448\u0438\u043c",
+			"index": "56",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["47.899878", "56.634407"]
+		},
+		"properties": {
+			"id": "57",
+			"address": "\u0419\u043e\u0448\u043a\u0430\u0440-\u041e\u043b\u0430",
+			"index": "57",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["49.106324", "55.798551"]
+		},
+		"properties": {
+			"id": "58",
+			"address": "\u041a\u0430\u0437\u0430\u043d\u044c",
+			"index": "58",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.252277", "54.507014"]
+		},
+		"properties": {
+			"id": "59",
+			"address": "\u041a\u0430\u043b\u0443\u0433\u0430",
+			"index": "59",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["61.918914", "56.414892"]
+		},
+		"properties": {
+			"id": "60",
+			"address": "\u041a\u0430\u043c\u0435\u043d\u0441\u043a-\u0423\u0440\u0430\u043b\u044c\u0441\u043a\u0438\u0439",
+			"index": "60",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["81.354558", "53.791486"]
+		},
+		"properties": {
+			"id": "61",
+			"address": "\u041a\u0430\u043c\u0435\u043d\u044c-\u043d\u0430-\u041e\u0431\u0438",
+			"index": "61",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["95.705055", "56.205045"]
+		},
+		"properties": {
+			"id": "62",
+			"address": "\u041a\u0430\u043d\u0441\u043a",
+			"index": "62",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["78.042389", "53.734294"]
+		},
+		"properties": {
+			"id": "63",
+			"address": "\u041a\u0430\u0440\u0430\u0441\u0443\u043a",
+			"index": "63",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.087314", "55.354968"]
+		},
+		"properties": {
+			"id": "64",
+			"address": "\u041a\u0435\u043c\u0435\u0440\u043e\u0432\u043e",
+			"index": "64",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.467352", "45.3562"]
+		},
+		"properties": {
+			"id": "65",
+			"address": "\u041a\u0435\u0440\u0447\u044c",
+			"index": "65",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["49.667978", "58.603581"]
+		},
+		"properties": {
+			"id": "66",
+			"address": "\u041a\u0438\u0440\u043e\u0432",
+			"index": "66",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.636679", "54.006025"]
+		},
+		"properties": {
+			"id": "67",
+			"address": "\u041a\u0438\u0441\u0435\u043b\u0435\u0432\u0441\u043a",
+			"index": "67",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.728716", "56.331693"]
+		},
+		"properties": {
+			"id": "68",
+			"address": "\u041a\u043b\u0438\u043d",
+			"index": "68",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["42.716715", "43.905251"]
+		},
+		"properties": {
+			"id": "69",
+			"address": "\u041a\u0438\u0441\u043b\u043e\u0432\u043e\u0434\u0441\u043a",
+			"index": "69",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.765224", "55.09524"]
+		},
+		"properties": {
+			"id": "70",
+			"address": "\u041a\u043e\u043b\u043e\u043c\u043d\u0430",
+			"index": "70",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["137.007948", "50.549923"]
+		},
+		"properties": {
+			"id": "71",
+			"address": "\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u043a-\u043d\u0430-\u0410\u043c\u0443\u0440\u0435",
+			"index": "71",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["74.482878", "62.263872"]
+		},
+		"properties": {
+			"id": "72",
+			"address": "\u041a\u043e\u0433\u0430\u043b\u044b\u043c",
+			"index": "72",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["40.926858", "57.767961"]
+		},
+		"properties": {
+			"id": "73",
+			"address": "\u041a\u043e\u0441\u0442\u0440\u043e\u043c\u0430",
+			"index": "73",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["82.206143", "55.019005"]
+		},
+		"properties": {
+			"id": "74",
+			"address": "\u041a\u043e\u0447\u0435\u043d\u0451\u0432\u043e",
+			"index": "74",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.975996", "45.040216"]
+		},
+		"properties": {
+			"id": "75",
+			"address": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440",
+			"index": "75",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["92.852545", "56.010599"]
+		},
+		"properties": {
+			"id": "76",
+			"address": "\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a",
+			"index": "76",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["78.311111", "55.445972"]
+		},
+		"properties": {
+			"id": "77",
+			"address": "\u041a\u0443\u0439\u0431\u044b\u0448\u0435\u0432",
+			"index": "77",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["65.344316", "55.441606"]
+		},
+		"properties": {
+			"id": "78",
+			"address": "\u041a\u0443\u0440\u0433\u0430\u043d",
+			"index": "78",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.192647", "51.730361"]
+		},
+		"properties": {
+			"id": "79",
+			"address": "\u041a\u0443\u0440\u0441\u043a",
+			"index": "79",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["35.657143", "51.660496"]
+		},
+		"properties": {
+			"id": "80",
+			"address": "\u041a\u0443\u0440\u0447\u0430\u0442\u043e\u0432",
+			"index": "80",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["94.437757", "51.719086"]
+		},
+		"properties": {
+			"id": "81",
+			"address": "\u041a\u044b\u0437\u044b\u043b",
+			"index": "81",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.162243", "54.663609"]
+		},
+		"properties": {
+			"id": "82",
+			"address": "\u041b\u0435\u043d\u0438\u043d\u0441\u043a-\u041a\u0443\u0437\u043d\u0435\u0446\u043a\u0438\u0439",
+			"index": "82",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["92.503666", "58.221728"]
+		},
+		"properties": {
+			"id": "83",
+			"address": "\u041b\u0435\u0441\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a",
+			"index": "83",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.594719", "52.61022"]
+		},
+		"properties": {
+			"id": "84",
+			"address": "\u041b\u0438\u043f\u0435\u0446\u043a",
+			"index": "84",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["134.296599", "46.445063"]
+		},
+		"properties": {
+			"id": "85",
+			"address": "\u041b\u0443\u0447\u0435\u0433\u043e\u0440\u0441\u043a",
+			"index": "85",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["150.808541", "59.568164"]
+		},
+		"properties": {
+			"id": "86",
+			"address": "\u041c\u0430\u0433\u0430\u0434\u0430\u043d",
+			"index": "86",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["58.97924", "53.407233"]
+		},
+		"properties": {
+			"id": "87",
+			"address": "\u041c\u0430\u0433\u043d\u0438\u0442\u043e\u0433\u043e\u0440\u0441\u043a",
+			"index": "87",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["87.735094", "56.20925"]
+		},
+		"properties": {
+			"id": "88",
+			"address": "\u041c\u0430\u0440\u0438\u0438\u043d\u0441\u043a",
+			"index": "88",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["84.182266", "54.346444"]
+		},
+		"properties": {
+			"id": "89",
+			"address": "\u041c\u0430\u0441\u043b\u044f\u043d\u0438\u043d\u043e",
+			"index": "89",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["76.102549", "61.031835"]
+		},
+		"properties": {
+			"id": "90",
+			"address": "\u041c\u0435\u0433\u0438\u043e\u043d",
+			"index": "90",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["47.504682", "42.98306"]
+		},
+		"properties": {
+			"id": "91",
+			"address": "\u041c\u0430\u0445\u0430\u0447\u043a\u0430\u043b\u0430",
+			"index": "91",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+			"options": {
+				"preset": "islands#violetGovernmentIcon"
+			}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["88.070372", "53.686596"]
+		},
+		"properties": {
+			"id": "92",
+			"address": "\u041c\u0435\u0436\u0434\u0443\u0440\u0435\u0447\u0435\u043d\u0441\u043a",
+			"index": "92",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["60.107677", "55.045671"]
+		},
+		"properties": {
+			"id": "93",
+			"address": "\u041c\u0438\u0430\u0441\u0441",
+			"index": "93",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["113.978692", "62.541028"]
+		},
+		"properties": {
+			"id": "94",
+			"address": "\u041c\u0438\u0440\u043d\u044b\u0439",
+			"index": "94",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["91.687268", "53.710564"]
+		},
+		"properties": {
+			"id": "95",
+			"address": "\u041c\u0438\u043d\u0443\u0441\u0438\u043d\u0441\u043a",
+			"index": "95",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["37.620393", "55.75396"]
+		},
+		"properties": {
+			"id": "96",
+			"address": "\u041c\u043e\u0441\u043a\u0432\u0430",
+			"index": "96",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#redHomeIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["33.074558", "68.969582"]
+		},
+		"properties": {
+			"id": "97",
+			"address": "\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a",
+			"index": "97",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["52.39582", "55.743553"]
+		},
+		"properties": {
+			"id": "98",
+			"address": "\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0435 \u0427\u0435\u043b\u043d\u044b",
+			"index": "98",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.764641", "43.225727"]
+		},
+		"properties": {
+			"id": "99",
+			"address": "\u041d\u0430\u0437\u0440\u0430\u043d\u044c",
+			"index": "99",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["43.607072", "43.485278"]
+		},
+		"properties": {
+			"id": "100",
+			"address": "\u041d\u0430\u043b\u044c\u0447\u0438\u043a",
+			"index": "100",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["132.892811", "42.824037"]
+		},
+		"properties": {
+			"id": "101",
+			"address": "\u041d\u0430\u0445\u043e\u0434\u043a\u0430",
+			"index": "101",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["41.936061", "44.638287"]
+		},
+		"properties": {
+			"id": "102",
+			"address": "\u041d\u0435\u0432\u0438\u043d\u043d\u043e\u043c\u044b\u0441\u0441\u043a",
+			"index": "102",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["72.616331", "61.088212"]
+		},
+		"properties": {
+			"id": "103",
+			"address": "\u041d\u0435\u0444\u0442\u0435\u044e\u0433\u0430\u043d\u0441\u043a",
+			"index": "103",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["124.720315", "56.659948"]
+		},
+		"properties": {
+			"id": "104",
+			"address": "\u041d\u0435\u0440\u044e\u043d\u0433\u0440\u0438",
+			"index": "104",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["76.569601", "60.939742"]
+		},
+		"properties": {
+			"id": "105",
+			"address": "\u041d\u0438\u0436\u043d\u0435\u0432\u0430\u0440\u0442\u043e\u0432\u0441\u043a",
+			"index": "105",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["99.031391", "54.896962"]
+		},
+		"properties": {
+			"id": "106",
+			"address": "\u041d\u0438\u0436\u043d\u0435\u0443\u0434\u0438\u043d\u0441\u043a",
+			"index": "106",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.005986", "56.326887"]
+		},
+		"properties": {
+			"id": "107",
+			"address": "\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434",
+			"index": "107",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["59.972211", "57.907605"]
+		},
+		"properties": {
+			"id": "108",
+			"address": "\u041d\u0438\u0436\u043d\u0438\u0439 \u0422\u0430\u0433\u0438\u043b",
+			"index": "108",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["83.93107", "53.412021"]
+		},
+		"properties": {
+			"id": "109",
+			"address": "\u041d\u043e\u0432\u043e\u0430\u043b\u0442\u0430\u0439\u0441\u043a",
+			"index": "109",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["76.680974", "66.083963"]
+		},
+		"properties": {
+			"id": "110",
+			"address": "\u041d\u043e\u0432\u044b\u0439 \u0423\u0440\u0435\u043d\u0433\u043e\u0439",
+			"index": "110",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.441058", "55.855537"]
+		},
+		"properties": {
+			"id": "111",
+			"address": "\u041d\u043e\u0433\u0438\u043d\u0441\u043a",
+			"index": "111",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["75.450965", "63.201789"]
+		},
+		"properties": {
+			"id": "112",
+			"address": "\u041d\u043e\u044f\u0431\u0440\u044c\u0441\u043a",
+			"index": "112",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["87.136044", "53.757547"]
+		},
+		"properties": {
+			"id": "113",
+			"address": "\u041d\u043e\u0432\u043e\u043a\u0443\u0437\u043d\u0435\u0446\u043a",
+			"index": "113",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["49.947767", "53.099469"]
+		},
+		"properties": {
+			"id": "114",
+			"address": "\u041d\u043e\u0432\u043e\u043a\u0443\u0439\u0431\u044b\u0448\u0435\u0432\u0441\u043a",
+			"index": "114",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["37.768678", "44.723566"]
+		},
+		"properties": {
+			"id": "115",
+			"address": "\u041d\u043e\u0432\u043e\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a",
+			"index": "115",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["82.92043", "55.030199"]
+		},
+		"properties": {
+			"id": "116",
+			"address": "\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a",
+			"index": "116",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["47.479125", "56.109551"]
+		},
+		"properties": {
+			"id": "117",
+			"address": "\u041d\u043e\u0432\u043e\u0447\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u0441\u043a",
+			"index": "117",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["88.200996", "69.349071"]
+		},
+		"properties": {
+			"id": "118",
+			"address": "\u041d\u043e\u0440\u0438\u043b\u044c\u0441\u043a",
+			"index": "118",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["53.46557", "54.481448"]
+		},
+		"properties": {
+			"id": "119",
+			"address": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c\u0441\u043a\u0438\u0439",
+			"index": "119",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["73.368212", "54.989342"]
+		},
+		"properties": {
+			"id": "120",
+			"address": "\u041e\u043c\u0441\u043a",
+			"index": "120",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["55.096955", "51.768199"]
+		},
+		"properties": {
+			"id": "121",
+			"address": "\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433",
+			"index": "121",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["36.069613", "52.967187"]
+		},
+		"properties": {
+			"id": "122",
+			"address": "\u041e\u0440\u0435\u043b",
+			"index": "122",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["87.337051", "53.598743"]
+		},
+		"properties": {
+			"id": "123",
+			"address": "\u041e\u0441\u0438\u043d\u043d\u0438\u043a\u0438",
+			"index": "123",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["133.126507", "43.127953"]
+		},
+		"properties": {
+			"id": "124",
+			"address": "\u041f\u0430\u0440\u0442\u0438\u0437\u0430\u043d\u0441\u043a",
+			"index": "124",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["45.018325", "53.195047"]
+		},
+		"properties": {
+			"id": "125",
+			"address": "\u041f\u0435\u043d\u0437\u0430",
+			"index": "125",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["59.942962", "56.908089"]
+		},
+		"properties": {
+			"id": "126",
+			"address": "\u041f\u0435\u0440\u0432\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a",
+			"index": "126",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.85431", "56.736093"]
+		},
+		"properties": {
+			"id": "127",
+			"address": "\u041f\u0435\u0440\u0435\u0441\u043b\u0430\u0432\u043b\u044c-\u0417\u0430\u043b\u0435\u0441\u0441\u043a\u0438\u0439",
+			"index": "127",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["56.229398", "58.010374"]
+		},
+		"properties": {
+			"id": "128",
+			"address": "\u041f\u0435\u0440\u043c\u044c",
+			"index": "128",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["158.655918", "53.03704"]
+		},
+		"properties": {
+			"id": "129",
+			"address": "\u041f\u0435\u0442\u0440\u043e\u043f\u0430\u0432\u043b\u043e\u0432\u0441\u043a-\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439",
+			"index": "129",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["86.750055", "53.884487"]
+		},
+		"properties": {
+			"id": "130",
+			"address": "\u041f\u0440\u043e\u043a\u043e\u043f\u044c\u0435\u0432\u0441\u043a",
+			"index": "130",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["43.070804", "44.03977"]
+		},
+		"properties": {
+			"id": "131",
+			"address": "\u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a",
+			"index": "131",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.718669", "47.222513"]
+		},
+		"properties": {
+			"id": "132",
+			"address": "\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443",
+			"index": "132",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["81.207818", "51.501196"]
+		},
+		"properties": {
+			"id": "133",
+			"address": "\u0420\u0443\u0431\u0446\u043e\u0432\u0441\u043a",
+			"index": "133",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.858433", "58.048454"]
+		},
+		"properties": {
+			"id": "134",
+			"address": "\u0420\u044b\u0431\u0438\u043d\u0441\u043a",
+			"index": "134",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.734928", "54.629148"]
+		},
+		"properties": {
+			"id": "135",
+			"address": "\u0420\u044f\u0437\u0430\u043d\u044c",
+			"index": "135",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["55.924627", "53.361694"]
+		},
+		"properties": {
+			"id": "136",
+			"address": "\u0421\u0430\u043b\u0430\u0432\u0430\u0442",
+			"index": "136",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["50.101783", "53.195538"]
+		},
+		"properties": {
+			"id": "137",
+			"address": "\u0421\u0430\u043c\u0430\u0440\u0430",
+			"index": "137",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["30.315868", "59.939095"]
+		},
+		"properties": {
+			"id": "138",
+			"address": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+			"index": "138",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["45.183642", "54.187211"]
+		},
+		"properties": {
+			"id": "139",
+			"address": "\u0421\u0430\u0440\u0430\u043d\u0441\u043a",
+			"index": "139",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["46.034158", "51.533103"]
+		},
+		"properties": {
+			"id": "140",
+			"address": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432",
+			"index": "140",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["91.412195", "53.100762"]
+		},
+		"properties": {
+			"id": "141",
+			"address": "\u0421\u0430\u044f\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+			"index": "141",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["102.180139", "54.11081"]
+		},
+		"properties": {
+			"id": "142",
+			"address": "\u0421\u0430\u044f\u043d\u0441\u043a",
+			"index": "142",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["128.134147", "51.375889"]
+		},
+		"properties": {
+			"id": "143",
+			"address": "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439",
+			"index": "143",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["33.525432", "44.616687"]
+		},
+		"properties": {
+			"id": "144",
+			"address": "\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
+			"index": "144",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.135766", "56.315321"]
+		},
+		"properties": {
+			"id": "145",
+			"address": "\u0421\u0435\u0440\u0433\u0438\u0435\u0432 \u041f\u043e\u0441\u0430\u0434",
+			"index": "145",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["34.100156", "44.948314"]
+		},
+		"properties": {
+			"id": "146",
+			"address": "\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c",
+			"index": "146",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["123.943632", "53.987177"]
+		},
+		"properties": {
+			"id": "147",
+			"address": "\u0421\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0438\u043d\u043e",
+			"index": "147",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["31.004696", "53.445987"]
+		},
+		"properties": {
+			"id": "148",
+			"address": "\u0421\u043b\u0430\u0432\u0433\u043e\u0440\u043e\u0434",
+			"index": "148",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.126001", "45.260439"]
+		},
+		"properties": {
+			"id": "149",
+			"address": "\u0421\u043b\u0430\u0432\u044f\u043d\u0441\u043a-\u043d\u0430-\u041a\u0443\u0431\u0430\u043d\u0438",
+			"index": "149",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["32.045134", "54.78264"]
+		},
+		"properties": {
+			"id": "150",
+			"address": "\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a",
+			"index": "150",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["140.285128", "48.96644"]
+		},
+		"properties": {
+			"id": "151",
+			"address": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0430\u044f \u0413\u0430\u0432\u0430\u043d\u044c",
+			"index": "151",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.723062", "43.585525"]
+		},
+		"properties": {
+			"id": "152",
+			"address": "\u0421\u043e\u0447\u0438",
+			"index": "152",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["132.817559", "44.597641"]
+		},
+		"properties": {
+			"id": "153",
+			"address": "\u0421\u043f\u0430\u0441\u0441\u043a-\u0414\u0430\u043b\u044c\u043d\u0438\u0439",
+			"index": "153",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["41.969065", "45.044502"]
+		},
+		"properties": {
+			"id": "154",
+			"address": "\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c",
+			"index": "154",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["55.931634", "53.630152"]
+		},
+		"properties": {
+			"id": "155",
+			"address": "\u0421\u0442\u0435\u0440\u043b\u0438\u0442\u0430\u043c\u0430\u043a",
+			"index": "155",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["77.604002", "60.732862"]
+		},
+		"properties": {
+			"id": "156",
+			"address": "\u0421\u0442\u0440\u0435\u0436\u0435\u0432\u043e\u0439",
+			"index": "156",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["82.316124", "53.789135"]
+		},
+		"properties": {
+			"id": "157",
+			"address": "\u0421\u0443\u0437\u0443\u043d",
+			"index": "157",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["73.396204", "61.254052"]
+		},
+		"properties": {
+			"id": "158",
+			"address": "\u0421\u0443\u0440\u0433\u0443\u0442",
+			"index": "158",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["48.474485", "53.155782"]
+		},
+		"properties": {
+			"id": "159",
+			"address": "\u0421\u044b\u0437\u0440\u0430\u043d\u044c",
+			"index": "159",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.935194", "47.20958"]
+		},
+		"properties": {
+			"id": "160",
+			"address": "\u0422\u0430\u0433\u0430\u043d\u0440\u043e\u0433",
+			"index": "160",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["85.631024", "56.065138"]
+		},
+		"properties": {
+			"id": "161",
+			"address": "\u0422\u0430\u0439\u0433\u0430",
+			"index": "161",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["98.002982", "55.940502"]
+		},
+		"properties": {
+			"id": "162",
+			"address": "\u0422\u0430\u0439\u0448\u0435\u0442",
+			"index": "162",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["41.452238", "52.721246"]
+		},
+		"properties": {
+			"id": "163",
+			"address": "\u0422\u0430\u043c\u0431\u043e\u0432",
+			"index": "163",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["87.847797", "52.759307"]
+		},
+		"properties": {
+			"id": "164",
+			"address": "\u0422\u0430\u0448\u0442\u0430\u0433\u043e\u043b",
+			"index": "164",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["35.911896", "56.859611"]
+		},
+		"properties": {
+			"id": "165",
+			"address": "\u0422\u0432\u0435\u0440\u044c",
+			"index": "165",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["68.253762", "58.201698"]
+		},
+		"properties": {
+			"id": "166",
+			"address": "\u0422\u043e\u0431\u043e\u043b\u044c\u0441\u043a",
+			"index": "166",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["49.419207", "53.508816"]
+		},
+		"properties": {
+			"id": "167",
+			"address": "\u0422\u043e\u043b\u044c\u044f\u0442\u0442\u0438",
+			"index": "167",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["84.948197", "56.48468"]
+		},
+		"properties": {
+			"id": "168",
+			"address": "\u0422\u043e\u043c\u0441\u043a",
+			"index": "168",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["37.305327", "55.485469"]
+		},
+		"properties": {
+			"id": "169",
+			"address": "\u0422\u0440\u043e\u0438\u0446\u043a",
+			"index": "169",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.073364", "44.095232"]
+		},
+		"properties": {
+			"id": "170",
+			"address": "\u0422\u0443\u0430\u043f\u0441\u0435",
+			"index": "170",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["53.694982", "54.599988"]
+		},
+		"properties": {
+			"id": "171",
+			"address": "\u0422\u0443\u0439\u043c\u0430\u0437\u044b",
+			"index": "171",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["37.617752", "54.193033"]
+		},
+		"properties": {
+			"id": "172",
+			"address": "\u0422\u0443\u043b\u0430",
+			"index": "172",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["100.578038", "54.55712"]
+		},
+		"properties": {
+			"id": "173",
+			"address": "\u0422\u0443\u043b\u0443\u043d",
+			"index": "173",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["124.729236", "55.154656"]
+		},
+		"properties": {
+			"id": "174",
+			"address": "\u0422\u044b\u043d\u0434\u0430",
+			"index": "174",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["65.534328", "57.153033"]
+		},
+		"properties": {
+			"id": "175",
+			"address": "\u0422\u044e\u043c\u0435\u043d\u044c",
+			"index": "175",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["107.584125", "51.833507"]
+		},
+		"properties": {
+			"id": "176",
+			"address": "\u0423\u043b\u0430\u043d-\u0423\u0434\u044d",
+			"index": "176",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["48.395622", "54.312416"]
+		},
+		"properties": {
+			"id": "177",
+			"address": "\u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a",
+			"index": "177",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["103.638769", "52.756648"]
+		},
+		"properties": {
+			"id": "178",
+			"address": "\u0423\u0441\u043e\u043b\u044c\u0435-\u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0435",
+			"index": "178",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["131.95178", "43.797273"]
+		},
+		"properties": {
+			"id": "179",
+			"address": "\u0423\u0441\u0441\u0443\u0440\u0438\u0439\u0441\u043a",
+			"index": "179",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["102.741523", "57.943039"]
+		},
+		"properties": {
+			"id": "180",
+			"address": "\u0423\u0441\u0442\u044c-\u0418\u043b\u0438\u043c\u0441\u043a",
+			"index": "180",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["105.775699", "56.792838"]
+		},
+		"properties": {
+			"id": "181",
+			"address": "\u0423\u0441\u0442\u044c-\u041a\u0443\u0442",
+			"index": "181",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["55.958727", "54.735147"]
+		},
+		"properties": {
+			"id": "182",
+			"address": "\u0423\u0444\u0430",
+			"index": "182",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["35.382429", "45.031929"]
+		},
+		"properties": {
+			"id": "183",
+			"address": "\u0424\u0435\u043e\u0434\u043e\u0441\u0438\u044f",
+			"index": "183",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["135.071917", "48.480223"]
+		},
+		"properties": {
+			"id": "184",
+			"address": "\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a",
+			"index": "184",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["69.018408", "61.002486"]
+		},
+		"properties": {
+			"id": "185",
+			"address": "\u0425\u0430\u043d\u0442\u044b-\u041c\u0430\u043d\u0441\u0438\u0439\u0441\u043a",
+			"index": "185",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["54.147759", "56.778061"]
+		},
+		"properties": {
+			"id": "186",
+			"address": "\u0427\u0430\u0439\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+			"index": "186",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["47.239894", "56.138654"]
+		},
+		"properties": {
+			"id": "187",
+			"address": "\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b",
+			"index": "187",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["61.40259", "55.160026"]
+		},
+		"properties": {
+			"id": "188",
+			"address": "\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a",
+			"index": "188",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["83.372516", "54.220642"]
+		},
+		"properties": {
+			"id": "189",
+			"address": "\u0427\u0435\u0440\u0435\u043f\u0430\u043d\u043e\u0432\u043e",
+			"index": "189",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["42.04677", "44.226863"]
+		},
+		"properties": {
+			"id": "190",
+			"address": "\u0427\u0435\u0440\u043a\u0435\u0441\u0441\u043a",
+			"index": "190",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["91.306005", "53.827034"]
+		},
+		"properties": {
+			"id": "191",
+			"address": "\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u0440\u0441\u043a",
+			"index": "191",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["113.499432", "52.033973"]
+		},
+		"properties": {
+			"id": "192",
+			"address": "\u0427\u0438\u0442\u0430",
+			"index": "192",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["63.629747", "56.087042"]
+		},
+		"properties": {
+			"id": "193",
+			"address": "\u0428\u0430\u0434\u0440\u0438\u043d\u0441\u043a",
+			"index": "193",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["40.215958", "47.708485"]
+		},
+		"properties": {
+			"id": "194",
+			"address": "\u0428\u0430\u0445\u0442\u044b",
+			"index": "194",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["41.385556", "56.852037"]
+		},
+		"properties": {
+			"id": "195",
+			"address": "\u0428\u0443\u044f",
+			"index": "195",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["46.126783", "51.485489"]
+		},
+		"properties": {
+			"id": "196",
+			"address": "\u042d\u043d\u0433\u0435\u043b\u044c\u0441",
+			"index": "196",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["38.444849", "55.784445"]
+		},
+		"properties": {
+			"id": "197",
+			"address": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u043b\u044c",
+			"index": "197",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["44.270181", "46.308309"]
+		},
+		"properties": {
+			"id": "198",
+			"address": "\u042d\u043b\u0438\u0441\u0442\u0430",
+			"index": "198",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["142.738041", "46.959179"]
+		},
+		"properties": {
+			"id": "199",
+			"address": "\u042e\u0436\u043d\u043e-\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0441\u043a",
+			"index": "199",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["84.933869", "55.713557"]
+		},
+		"properties": {
+			"id": "200",
+			"address": "\u042e\u0440\u0433\u0430",
+			"index": "200",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["129.732555", "62.028098"]
+		},
+		"properties": {
+			"id": "201",
+			"address": "\u042f\u043a\u0443\u0442\u0441\u043a",
+			"index": "201",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["34.166353", "44.495273"]
+		},
+		"properties": {
+			"id": "202",
+			"address": "\u042f\u043b\u0442\u0430",
+			"index": "202",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": ["39.893885", "57.626549"]
+		},
+		"properties": {
+			"id": "203",
+			"address": "\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c",
+			"index": "203",
+			"balloonContentBody": "<a href='#extended_form' class='clearReg blue-text text-darken-1'>Заказать в этот город</a>"
+		},
+		"options": {
+			"preset": "islands#violetGovernmentIcon"
+		}
+	}]
+}
